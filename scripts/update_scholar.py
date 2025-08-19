@@ -1,76 +1,95 @@
 # scripts/update_scholar.py
-import os, re, sys, html
+import os, re, sys, html, time
 from datetime import datetime
-
-# pip install scholarly
 from scholarly import scholarly
 
-README_PATH = os.getenv("README_PATH", "README.md")
-SCHOLAR_URL  = os.getenv("SCHOLAR_PROFILE_URL", "").strip()
-SCHOLAR_USER = os.getenv("SCHOLAR_USER_ID", "").strip()
-MAX_ITEMS = int(os.getenv("SCHOLAR_MAX_ITEMS", "5"))
+README_PATH   = os.getenv("README_PATH", "README.md")
+SCHOLAR_URL   = os.getenv("SCHOLAR_PROFILE_URL", "").strip()
+SCHOLAR_USER  = os.getenv("SCHOLAR_USER_ID", "").strip()
+MAX_ITEMS     = int(os.getenv("SCHOLAR_MAX_ITEMS", "6"))
+OUTPUT_STYLE  = os.getenv("SCHOLAR_OUTPUT_STYLE", "table").lower()  # "table" or "list"
 
 START = "<!-- SCHOLAR:START -->"
-END = "<!-- SCHOLAR:END -->"
+END   = "<!-- SCHOLAR:END -->"
 
 def extract_user_from_url(url: str) -> str:
-    # e.g. https://scholar.google.com/citations?user=ABCDEFG&hl=en
     m = re.search(r"[?&]user=([A-Za-z0-9_-]+)", url)
     return m.group(1) if m else ""
 
-def get_author(user_id: str):
-    try:
-        author = scholarly.search_author_id(user_id)
-        return scholarly.fill(author, sections=["publications"])
-    except Exception as e:
-        print(f"[warn] author fetch failed: {e}")
-        return None
+def get_author(user_id: str, retry=2, delay=2):
+    last_err = None
+    for _ in range(retry + 1):
+        try:
+            author = scholarly.search_author_id(user_id)
+            return scholarly.fill(author, sections=["publications"])
+        except Exception as e:
+            last_err = e
+            time.sleep(delay)
+    print(f"[warn] author fetch failed: {last_err}")
+    return None
 
-def coalesce_pub_url(pub):
+def coalesce_pub_url(pub: dict) -> str:
     url = pub.get("pub_url")
     if url:
         return url
     title = pub.get("bib", {}).get("title", "")
-    q = re.sub(r"\s+", "+", title)
+    q = re.sub(r"\s+", "+", title.strip())
     return f"https://scholar.google.com/scholar?q={q}"
 
-def build_table(author, max_items=5):
+def sort_key(p):
+    bib = p.get("bib", {})
+    year = bib.get("pub_year") or bib.get("year") or -1
+    try:
+        year = int(year)
+    except Exception:
+        year = -1
+    cites = p.get("num_citations", 0) or 0
+    return (year, cites)
+
+def format_authors(bib_author_field: str) -> str:
+    # input 예: "Jeong, Jongpil, Lee, Someone, ... "
+    if not bib_author_field:
+        return ""
+    # 구글 스칼라 형식이 "성, 이름, 성, 이름"일 때가 있어 쉼표 기준 split 후 첫 토큰만 안전 취득
+    first = bib_author_field.split(",")[0].strip()
+    first = html.escape(first)
+    return f"{first} *et al.*"
+
+def make_table(rows: list) -> str:
+    header = "| Title | Authors | Year | Citations |\n|:---:|:---:|:---:|---:|"
+    return header + "\n" + "\n".join(rows) if rows else "_No publications found_"
+
+def make_list(rows: list) -> str:
+    return "\n".join(f"- {r}" for r in rows) if rows else "_No publications found_"
+
+def build_block(author: dict, max_items: int = 6, output_style: str = "table") -> str:
     pubs = author.get("publications", [])
-    rows = []
-
-    # 최신순(연도 ↓), 같은 연도면 citation ↓
-    def sort_key(p):
-        bib = p.get("bib", {})
-        year = bib.get("pub_year") or bib.get("year") or -1
-        try:
-            year = int(year)
-        except Exception:
-            year = -1
-        cites = p.get("num_citations", 0)
-        return (year, cites)
-
     pubs_sorted = sorted(pubs, key=sort_key, reverse=True)[:max_items]
 
+    if output_style == "list":
+        items = []
+        for p in pubs_sorted:
+            bib = p.get("bib", {})
+            title = html.escape(bib.get("title", "Untitled"))
+            year  = bib.get("pub_year") or bib.get("year") or "n.d."
+            authors = format_authors(bib.get("author", ""))
+            cites = p.get("num_citations", 0) or 0
+            url = coalesce_pub_url(p)
+            # "Title(🔗) + Author(First author et al.) + Year + Citations"
+            items.append(f"[**{title}**]({url}) • {authors} • {year} • Citations: {cites}")
+        return make_list(items)
+
+    # default: table
+    rows = []
     for p in pubs_sorted:
         bib = p.get("bib", {})
         title = html.escape(bib.get("title", "Untitled"))
-        year = bib.get("pub_year") or bib.get("year") or ""
-        authors = bib.get("author", "")
-        authors = html.escape(authors)
-
-        # 저자명: 첫 저자 + et al. 처리
-        if "," in authors:
-            first_author = authors.split(",")[0].strip()
-            authors = f"{first_author} *et al.*"
-
-        cites = p.get("num_citations", 0)
+        year  = bib.get("pub_year") or bib.get("year") or "n.d."
+        authors = format_authors(bib.get("author", ""))
+        cites = p.get("num_citations", 0) or 0
         url = coalesce_pub_url(p)
-
-        # 버전 B 형식
         rows.append(f"| [**{title}**]({url}) | {authors} | {year} | {cites} |")
-
-    header = "| Title | Authors | Year | Citations |\n|:---:|:---:|:---:|---:|"
-    return header + "\n" + "\n".join(rows) if rows else "_No publications found_"
+    return make_table(rows)
 
 def main():
     user_id = SCHOLAR_USER or extract_user_from_url(SCHOLAR_URL)
@@ -83,7 +102,7 @@ def main():
         print("❌ Failed to load author.")
         sys.exit(1)
 
-    table_md = build_table(author, MAX_ITEMS)
+    block_md = build_block(author, MAX_ITEMS, OUTPUT_STYLE)
     with open(README_PATH, "r", encoding="utf-8") as f:
         md = f.read()
 
@@ -93,7 +112,7 @@ def main():
 
     new = re.sub(
         rf"{re.escape(START)}[\s\S]*?{re.escape(END)}",
-        f"{START}\n{table_md}\n{END}",
+        f"{START}\n{block_md}\n{END}",
         md,
     )
 
