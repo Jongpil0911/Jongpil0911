@@ -15,13 +15,12 @@
 
 
 ## Language
-[![Language](https://skillicons.dev/icons?i=python,c,cpp,matlab,markdown)](https://skillicons.dev)
+<!-- [![Language](https://skillicons.dev/icons?i=python,c,cpp,matlab,markdown)](https://skillicons.dev)-->
 
 
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=matlab&logoColor=white)
-
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
@@ -43,8 +42,8 @@
 | <div align='left' style='white-space:normal;'>[**A Study of Noise Reduction Algorithm Using Statistical Optimization in Digital Holographic Microscopy**](https://ieeexplore.ieee.org/abstract/document/10613728/)</div> | <span style='white-space:nowrap;'>Jongpil&nbsp;Jeong&nbsp;et&nbsp;al.</span> | 2024 | IEEE | 1 |
 | <div align='left' style='white-space:normal;'>[**Kalman filtering optimization in Digital Holographic Microscopy (DHM)**](https://ieeexplore.ieee.org/abstract/document/10773243/)</div> | <span style='white-space:nowrap;'>Taishi&nbsp;Ono&nbsp;et&nbsp;al.</span> | 2024 | IEEE | 0 |
 <!-- SCHOLAR:END -->
-
-
+For more papers<br/>
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-blue?logo=googlescholar&style=for-the-badge)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ)
 
 
 
@@ -54,14 +53,18 @@
 
 
 
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-blue?logo=googlescholar&style=for-the-badge)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ)
+
 
 ## Coding Test
 | <img src="https://leetcard.jacoblin.cool/YOUR_ID?theme=dark&ext=heatmap&animation=true" height=150 > | <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jongpil0911@naver.com" height=150 > |
 |:---:|:---:|
 
-
-
+## Contact
+- E-mail:
+  - jeong.jongpil383@mail.kyutech.jp
+  - jeongpil0911@gmail.com
+- Curriclum Vitae
+- Résumé
 <!--
 
 
