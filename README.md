@@ -27,6 +27,7 @@
 
 ## 📚 Recent Publications
 <!-- SCHOLAR:START -->
+_No publications found_
 <!-- SCHOLAR:END -->
 
 
