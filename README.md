@@ -39,23 +39,6 @@
 
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-blue?logo=googlescholar&style=for-the-badge)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ)
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&theme=radical" height=150 width="700"/>
-
-| <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&theme=radical" height=150 > | <img src="https://leetcard.jacoblin.cool/YOUR_ID?theme=dark&ext=heatmap&animation=true" height="150"> > |
-|:---:|:---:|
-| <img src="https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true&theme=radical" height=150 > | <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jongpil0911@naver.com" height=150 > |
-<a href="https://leetcode.com/jongpil0904/">
-  <img src="https://leetcard.jacoblin.cool/YOUR_ID?theme=dark&ext=heatmap&animation=true" height="160"/>
-</a>
-
-jongpil0904
-
-
-
-
-
-
-
 ## Coding Test
 | <img src="https://leetcard.jacoblin.cool/YOUR_ID?theme=dark&ext=heatmap&animation=true" height=150 > | <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jongpil0911@naver.com" height=150 > |
 |:---:|:---:|
