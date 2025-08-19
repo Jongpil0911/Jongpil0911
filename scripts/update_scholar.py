@@ -50,10 +50,9 @@ def format_authors(bib_author_field: str) -> str:
     if not bib_author_field:
         return ""
     authors = [author.strip() for author in bib_author_field.split("and")]
-    if len(authors) <= 3:
-        return ", ".join(map(html.escape, authors))
-    else:
-        return f"{html.escape(authors[0])}, {html.escape(authors[1])}, {html.escape(authors[2])} *et al.*"
+    if len(authors) == 1:
+        return html.escape(authors[0]).replace(" ", "&nbsp;")
+    return f"{html.escape(authors[0]).replace(' ', '&nbsp;')} *et&nbsp;al.*"
 
 def make_table(rows: list) -> str:
     header = "| Title | Authors | Year | Citations |\n|:---:|:---:|:---:|---:|"
