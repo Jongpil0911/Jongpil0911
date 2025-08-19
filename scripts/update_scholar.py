@@ -1,25 +1,23 @@
 # scripts/update_scholar.py
 import os, re, sys, html
-from datetime import datetime
-
-# pip install scholarly
 from scholarly import scholarly
 
-README_PATH = os.getenv("README_PATH", "README.md")
-SCHOLAR_URL  = os.getenv("https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en", "").strip()
-SCHOLAR_USER = os.getenv("O-3pYeQAAAAJ", "").strip()
-MAX_ITEMS = int(os.getenv("SCHOLAR_MAX_ITEMS", "5"))
+README_PATH  = os.getenv("README_PATH", "README.md")
+
+# 🔧 Secrets/환경변수에서 값 읽기
+SCHOLAR_URL  = os.getenv("SCHOLAR_PROFILE_URL", "").strip()   # 전체 URL을 넣는 경우 (선택)
+SCHOLAR_USER = os.getenv("SCHOLAR_USER_ID", "").strip()       # user ID만 넣는 경우 (권장)
+
+MAX_ITEMS    = int(os.getenv("SCHOLAR_MAX_ITEMS", "5"))
 
 START = "<!-- SCHOLAR:START -->"
-END = "<!-- SCHOLAR:END -->"
+END   = "<!-- SCHOLAR:END -->"
 
 def extract_user_from_url(url: str) -> str:
-    # e.g. https://scholar.google.com/citations?user=ABCDEFG&hl=en
     m = re.search(r"[?&]user=([A-Za-z0-9_-]+)", url)
     return m.group(1) if m else ""
 
 def get_author(user_id: str):
-    # scholarly의 author id는 'search_author_id'로 직접 조회
     try:
         author = scholarly.search_author_id(user_id)
         return scholarly.fill(author, sections=["publications"])
@@ -28,7 +26,6 @@ def get_author(user_id: str):
         return None
 
 def coalesce_pub_url(pub):
-    # pub_url이 없으면 학술 검색 링크로 대체
     url = pub.get("pub_url")
     if url:
         return url
@@ -38,28 +35,20 @@ def coalesce_pub_url(pub):
 
 def build_table(author, max_items=5):
     pubs = author.get("publications", [])
-    rows = []
-    # 최신순 정렬(연도 ↓)
     def year_of(p):
         y = p.get("bib", {}).get("pub_year") or p.get("bib", {}).get("year")
-        try:
-            return int(y)
-        except Exception:
-            return -1
+        try: return int(y)
+        except: return -1
 
     pubs_sorted = sorted(pubs, key=year_of, reverse=True)[:max_items]
-
+    rows = []
     for p in pubs_sorted:
         bib = p.get("bib", {})
-        title = bib.get("title", "Untitled")
-        year = bib.get("pub_year") or bib.get("year") or ""
-        venue = bib.get("venue") or bib.get("journal") or bib.get("publisher") or ""
-        authors = bib.get("author", "")
-        url = coalesce_pub_url(p)
-        title = html.escape(title)
-        venue = html.escape(venue)
-        authors = html.escape(authors)
-
+        title   = html.escape(bib.get("title", "Untitled"))
+        year    = bib.get("pub_year") or bib.get("year") or ""
+        venue   = html.escape(bib.get("venue") or bib.get("journal") or bib.get("publisher") or "")
+        authors = html.escape(bib.get("author", ""))
+        url     = coalesce_pub_url(p)
         rows.append(f"| **{title}** | {authors} | {venue} | {year} | [link]({url}) |")
 
     header = "| Title | Authors | Venue | Year | Link |\n|---|---|---|---:|---|"
@@ -84,11 +73,8 @@ def main():
         print(f"❌ Place {START} ... {END} markers in README.md")
         sys.exit(1)
 
-    new = re.sub(
-        rf"{re.escape(START)}[\s\S]*?{re.escape(END)}",
-        f"{START}\n{table_md}\n{END}",
-        md,
-    )
+    new = re.sub(rf"{re.escape(START)}[\s\S]*?{re.escape(END)}",
+                 f"{START}\n{table_md}\n{END}", md)
 
     if new != md:
         with open(README_PATH, "w", encoding="utf-8") as f:
