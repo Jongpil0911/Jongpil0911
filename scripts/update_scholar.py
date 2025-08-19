@@ -38,7 +38,7 @@ def build_table(author, max_items=5):
     pubs = author.get("publications", [])
     rows = []
 
-    # 정렬 우선순위: 최신 연도 ↓, 같은 연도면 citation ↓
+    # 최신순(연도 ↓), 같은 연도면 citation ↓
     def sort_key(p):
         bib = p.get("bib", {})
         year = bib.get("pub_year") or bib.get("year") or -1
@@ -47,28 +47,29 @@ def build_table(author, max_items=5):
         except Exception:
             year = -1
         cites = p.get("num_citations", 0)
-        return (-year, -cites)
+        return (year, cites)
 
-    pubs_sorted = sorted(pubs, key=sort_key)[:max_items]
+    pubs_sorted = sorted(pubs, key=sort_key, reverse=True)[:max_items]
 
     for p in pubs_sorted:
         bib = p.get("bib", {})
-        title = bib.get("title", "Untitled")
+        title = html.escape(bib.get("title", "Untitled"))
         year = bib.get("pub_year") or bib.get("year") or ""
-        venue = bib.get("venue") or bib.get("journal") or bib.get("publisher") or ""
         authors = bib.get("author", "")
-        url = coalesce_pub_url(p)
-        cites = p.get("num_citations", 0)
-
-        title = html.escape(title)
-        venue = html.escape(venue)
         authors = html.escape(authors)
 
-        rows.append(
-            f"| **{title}** | {authors} | {venue} | {year} | {cites} | [link]({url}) |"
-        )
+        # 저자명: 첫 저자 + et al. 처리
+        if "," in authors:
+            first_author = authors.split(",")[0].strip()
+            authors = f"{first_author} *et al.*"
 
-    header = "| Title | Authors | Venue | Year | Citations | Link |\n|---|---|---|---:|---:|---|"
+        cites = p.get("num_citations", 0)
+        url = coalesce_pub_url(p)
+
+        # 버전 B 형식
+        rows.append(f"| [**{title}**]({url}) | {authors} | {year} | {cites} |")
+
+    header = "| Title | Authors | Year | Citations |\n|:---:|:---:|:---:|---:|"
     return header + "\n" + "\n".join(rows) if rows else "_No publications found_"
 
 def main():
