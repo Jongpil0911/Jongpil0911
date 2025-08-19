@@ -6,7 +6,7 @@ from datetime import datetime
 from scholarly import scholarly
 
 README_PATH = os.getenv("README_PATH", "README.md")
-SCHOLAR_URL = os.getenv("https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en", "").strip()
+SCHOLAR_URL  = os.getenv("https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en", "").strip()
 SCHOLAR_USER = os.getenv("O-3pYeQAAAAJ", "").strip()
 MAX_ITEMS = int(os.getenv("SCHOLAR_MAX_ITEMS", "5"))
 
