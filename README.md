@@ -3,8 +3,13 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=0l70&layout=compact&theme=tokyonight&langs_count=8)
 
-[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=Jongpil0911)](https://github.com/0l70)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=jongpil0911@naver.com)](https://solved.ac/여기에형님백준아이디)
+
+|GitHub Stats|Solved.ac|
+|:---:|:---:|
+|[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=Jongpil0911)](https://github.com/0l70)|[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=jongpil0911@naver.com)](https://solved.ac/jongpil0911@naver.com)|
+
+[![My GitHub stats](https://github-readme-stats.vercel.app/api?username=Jongpil0911)](https://github.com/Jongpil0911)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=jongpil0911@naver.com)](https://solved.ac/jongpil0911@naver.com)
 <!--
 **Jongpil0911/Jongpil0911** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
