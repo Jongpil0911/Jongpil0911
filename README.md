@@ -23,9 +23,9 @@
 <!-- SCHOLAR:START -->
 | Title | Authors | Year | Citations |
 |:---:|:---:|:---:|---:|
-| [**Scattering Medium Removal Using Adaptive Masks for Scatter in the Spatial Frequency Domain**](https://ieeexplore.ieee.org/abstract/document/10973090/) | Jongpil Jeong *et al.* | 2025 | 0 |
-| [**A Study of Noise Reduction Algorithm Using Statistical Optimization in Digital Holographic Microscopy**](https://ieeexplore.ieee.org/abstract/document/10613728/) | Jongpil Jeong *et al.* | 2024 | 1 |
-| [**Kalman filtering optimization in Digital Holographic Microscopy (DHM)**](https://ieeexplore.ieee.org/abstract/document/10773243/) | Taishi Ono *et al.* | 2024 | 0 |
+| [**Scattering Medium Removal Using Adaptive Masks for Scatter in the Spatial Frequency Domain**](https://ieeexplore.ieee.org/abstract/document/10973090/) | Jongpil Jeong, Min-Chul Lee | 2025 | 0 |
+| [**A Study of Noise Reduction Algorithm Using Statistical Optimization in Digital Holographic Microscopy**](https://ieeexplore.ieee.org/abstract/document/10613728/) | Jongpil Jeong, Hyun–Woo Kim, Myungjin Cho *et al.* | 2024 | 1 |
+| [**Kalman filtering optimization in Digital Holographic Microscopy (DHM)**](https://ieeexplore.ieee.org/abstract/document/10773243/) | Taishi Ono, Jongpil Jeong, Hyun-Woo Kim *et al.* | 2024 | 0 |
 <!-- SCHOLAR:END -->
 
 
