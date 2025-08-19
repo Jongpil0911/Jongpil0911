@@ -21,7 +21,7 @@
 
 
 
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-blue?logo=googlescholar&style=for-the-badge)](https://scholar.google.com/citations?user=여기ID)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-blue?logo=googlescholar&style=for-the-badge)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ)
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&theme=radical" height=150 width="700"/>
 
