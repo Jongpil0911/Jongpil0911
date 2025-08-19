@@ -21,7 +21,7 @@
 
 ## 📚 Recent Publications
 <!-- SCHOLAR:START -->
-| Title | Authors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Year | Citations |
+| Title | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Authors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Year | Citations |
 |:---|:---:|:---:|:---:|
 | [**Scattering Medium Removal Using Adaptive Masks for Scatter in the Spatial Frequency Domain**](https://ieeexplore.ieee.org/abstract/document/10973090/) | Jongpil&nbsp;Jeong *et&nbsp;al.* | 2025 | 0 |
 | [**A Study of Noise Reduction Algorithm Using Statistical Optimization in Digital Holographic Microscopy**](https://ieeexplore.ieee.org/abstract/document/10613728/) | Jongpil&nbsp;Jeong *et&nbsp;al.* | 2024 | 1 |
