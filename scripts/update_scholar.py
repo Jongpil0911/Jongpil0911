@@ -55,7 +55,7 @@ def format_authors(bib_author_field: str) -> str:
     return f"{html.escape(authors[0]).replace(' ', '&nbsp;')} *et&nbsp;al.*"
 
 def make_table(rows: list) -> str:
-    header = "| Title | Authors | Year | Citations |\n|:---:|:---:|:---:|:---:|"
+    header = "| Title | Authors | Year | Citations |\n|:---|:---:|:---:|:---:|"
     return header + "\n" + "\n".join(rows) if rows else "_No publications found_"
 
 def make_list(rows: list) -> str:
