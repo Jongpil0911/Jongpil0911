@@ -3,7 +3,7 @@
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&theme=tokyonight&langs_count=8)
 
-| <img src="https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true&theme=radical" height="180px"/> | <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jongpil0911@naver.com" height="180px"/> |
+| <img src="https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true&theme=radical" height=150 > | <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jongpil0911@naver.com" height=150 > |
 |:---:|:---:|
 
 
