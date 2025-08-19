@@ -55,7 +55,7 @@ def format_authors(bib_author_field: str) -> str:
     return f"{html.escape(authors[0]).replace(' ', '&nbsp;')}&nbsp;et&nbsp;al."
 
 def make_table(rows: list) -> str:
-    header = "| Title | Authors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Year | Citations |\n|:---|:---:|:---:|:---:|"
+    header = "| Title | Authors | Year | Citations |\n|:---:|:---:|:---:|:---:|"
     return header + "\n" + "\n".join(rows) if rows else "_No publications found_"
 
 def make_list(rows: list) -> str:
@@ -88,7 +88,7 @@ def build_block(author: dict, max_items: int = 6, output_style: str = "table") -
         authors = format_authors(bib.get("author", ""))
         cites = p.get("num_citations", 0) or 0
         url = coalesce_pub_url(p)
-        rows.append(f"| [**{title}**]({url}) | {authors} | {year} | {cites} |")
+        rows.append(f"| <div align='left'>[**{title}**]({url})</div> | {authors} | {year} | {cites} |")
     return make_table(rows)
 
 def main():
