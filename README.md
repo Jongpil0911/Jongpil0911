@@ -21,11 +21,11 @@
 
 ## 📚 Recent Publications
 <!-- SCHOLAR:START -->
-| Title | Authors | Venue | Year | Link |
-|---|---|---|---:|---|
-| **Scattering Medium Removal Using Adaptive Masks for Scatter in the Spatial Frequency Domain** |  |  | 2025 | [link](https://scholar.google.com/scholar?q=Scattering+Medium+Removal+Using+Adaptive+Masks+for+Scatter+in+the+Spatial+Frequency+Domain) |
-| **A Study of Noise Reduction Algorithm Using Statistical Optimization in Digital Holographic Microscopy** |  |  | 2024 | [link](https://scholar.google.com/scholar?q=A+Study+of+Noise+Reduction+Algorithm+Using+Statistical+Optimization+in+Digital+Holographic+Microscopy) |
-| **Kalman filtering optimization in Digital Holographic Microscopy (DHM)** |  |  | 2024 | [link](https://scholar.google.com/scholar?q=Kalman+filtering+optimization+in+Digital+Holographic+Microscopy+(DHM)) |
+| Title | Authors | Year | Citations |
+|:---:|:---:|:---:|---:|
+| [**Scattering Medium Removal Using Adaptive Masks for Scatter in the Spatial Frequency Domain**](https://scholar.google.com/scholar?q=Scattering+Medium+Removal+Using+Adaptive+Masks+for+Scatter+in+the+Spatial+Frequency+Domain) |  | 2025 | 0 |
+| [**A Study of Noise Reduction Algorithm Using Statistical Optimization in Digital Holographic Microscopy**](https://scholar.google.com/scholar?q=A+Study+of+Noise+Reduction+Algorithm+Using+Statistical+Optimization+in+Digital+Holographic+Microscopy) |  | 2024 | 1 |
+| [**Kalman filtering optimization in Digital Holographic Microscopy (DHM)**](https://scholar.google.com/scholar?q=Kalman+filtering+optimization+in+Digital+Holographic+Microscopy+(DHM)) |  | 2024 | 0 |
 <!-- SCHOLAR:END -->
 
 
