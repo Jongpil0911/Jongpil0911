@@ -47,13 +47,12 @@ def sort_key(p):
     return (year, cites)
 
 def format_authors(bib_author_field: str) -> str:
-    # input 예: "Jeong, Jongpil, Lee, Someone, ... "
     if not bib_author_field:
         return ""
-    # 구글 스칼라 형식이 "성, 이름, 성, 이름"일 때가 있어 쉼표 기준 split 후 첫 토큰만 안전 취득
-    first = bib_author_field.split(",")[0].strip()
-    first = html.escape(first)
-    return f"{first} *et al.*"
+    authors = [author.strip() for author in bib_author_field.split("and")]
+    if len(authors) == 1:
+        return html.escape(authors[0])
+    return f"{html.escape(authors[0])} *et al.*"
 
 def make_table(rows: list) -> str:
     header = "| Title | Authors | Year | Citations |\n|:---:|:---:|:---:|---:|"
@@ -82,6 +81,7 @@ def build_block(author: dict, max_items: int = 6, output_style: str = "table") -
     # default: table
     rows = []
     for p in pubs_sorted:
+        scholarly.fill(p)
         bib = p.get("bib", {})
         title = html.escape(bib.get("title", "Untitled"))
         year  = bib.get("pub_year") or bib.get("year") or "n.d."
