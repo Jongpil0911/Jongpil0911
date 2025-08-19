@@ -1,12 +1,8 @@
 ## Hi there 👋
 
+Jongpil0911
 
-
-
-
-
-
-| < img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&langs_count=10" height=150 > | <img src="https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true&theme=radical" height=150 > |
+| <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&langs_count=15" height="250"/> | <img src="https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true" height="250"/> |
 |:---:|:---:|
 
 ## Research Interest
