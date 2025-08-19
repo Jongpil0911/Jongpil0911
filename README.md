@@ -14,8 +14,11 @@
 
 
 
-## 
-
+## Tech Stack
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=matlab&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 
 [![Blog](https://img.shields.io/badge/Blog-Visit%20My%20Blog-blue?style=for-the-badge&logo=google-chrome)](https://your-blog-url.com)
@@ -38,7 +41,8 @@
 
 
 
-
+<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
+&nbsp 
 
 
 
