@@ -3,7 +3,7 @@
 <!--Jongpil0911
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" /> -->
 
-| <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&langs_count=15&theme=github_dark" height="250"/> | <img src="https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true&theme=github_dark" height="250"/> |
+| <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&langs_count=15&theme=github_dark&hide=html" height="250"/> | <img src="https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true&theme=github_dark" height="250"/> |
 |:---:|:---:|
 
 ## Research Interests
@@ -14,11 +14,18 @@
 
 
 
-## Tech Stack
+## Language
+[![Language](https://skillicons.dev/icons?i=python,c,cpp,matlab,markdown)](https://skillicons.dev)
+
+
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=matlab&logoColor=white)
+
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+
 
 
 [![Blog](https://img.shields.io/badge/Blog-Visit%20My%20Blog-blue?style=for-the-badge&logo=google-chrome)](https://your-blog-url.com)
