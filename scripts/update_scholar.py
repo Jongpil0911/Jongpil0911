@@ -52,7 +52,7 @@ def format_authors(bib_author_field: str) -> str:
     authors = [author.strip() for author in bib_author_field.split("and")]
     if len(authors) == 1:
         return html.escape(authors[0]).replace(" ", "&nbsp;")
-    return f"{html.escape(authors[0]).replace(' ', '&nbsp;')} *et&nbsp;al.*"
+    return f"{html.escape(authors[0]).replace(' ', '&nbsp;')}&nbsp;et&nbsp;al."
 
 def make_table(rows: list) -> str:
     header = "| Title | Authors&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Year | Citations |\n|:---|:---:|:---:|:---:|"
