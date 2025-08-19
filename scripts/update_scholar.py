@@ -1,19 +1,20 @@
 # scripts/update_scholar.py
 import os, re, sys, html
+from datetime import datetime
+
+# pip install scholarly
 from scholarly import scholarly
 
-README_PATH  = os.getenv("README_PATH", "README.md")
-
-# 🔧 Secrets/환경변수에서 값 읽기
-SCHOLAR_URL  = os.getenv("SCHOLAR_PROFILE_URL", "").strip()   # 전체 URL을 넣는 경우 (선택)
-SCHOLAR_USER = os.getenv("SCHOLAR_USER_ID", "").strip()       # user ID만 넣는 경우 (권장)
-
-MAX_ITEMS    = int(os.getenv("SCHOLAR_MAX_ITEMS", "5"))
+README_PATH = os.getenv("README_PATH", "README.md")
+SCHOLAR_URL  = os.getenv("SCHOLAR_PROFILE_URL", "").strip()
+SCHOLAR_USER = os.getenv("SCHOLAR_USER_ID", "").strip()
+MAX_ITEMS = int(os.getenv("SCHOLAR_MAX_ITEMS", "5"))
 
 START = "<!-- SCHOLAR:START -->"
-END   = "<!-- SCHOLAR:END -->"
+END = "<!-- SCHOLAR:END -->"
 
 def extract_user_from_url(url: str) -> str:
+    # e.g. https://scholar.google.com/citations?user=ABCDEFG&hl=en
     m = re.search(r"[?&]user=([A-Za-z0-9_-]+)", url)
     return m.group(1) if m else ""
 
@@ -35,23 +36,39 @@ def coalesce_pub_url(pub):
 
 def build_table(author, max_items=5):
     pubs = author.get("publications", [])
-    def year_of(p):
-        y = p.get("bib", {}).get("pub_year") or p.get("bib", {}).get("year")
-        try: return int(y)
-        except: return -1
-
-    pubs_sorted = sorted(pubs, key=year_of, reverse=True)[:max_items]
     rows = []
+
+    # 정렬 우선순위: 최신 연도 ↓, 같은 연도면 citation ↓
+    def sort_key(p):
+        bib = p.get("bib", {})
+        year = bib.get("pub_year") or bib.get("year") or -1
+        try:
+            year = int(year)
+        except Exception:
+            year = -1
+        cites = p.get("num_citations", 0)
+        return (-year, -cites)
+
+    pubs_sorted = sorted(pubs, key=sort_key)[:max_items]
+
     for p in pubs_sorted:
         bib = p.get("bib", {})
-        title   = html.escape(bib.get("title", "Untitled"))
-        year    = bib.get("pub_year") or bib.get("year") or ""
-        venue   = html.escape(bib.get("venue") or bib.get("journal") or bib.get("publisher") or "")
-        authors = html.escape(bib.get("author", ""))
-        url     = coalesce_pub_url(p)
-        rows.append(f"| **{title}** | {authors} | {venue} | {year} | [link]({url}) |")
+        title = bib.get("title", "Untitled")
+        year = bib.get("pub_year") or bib.get("year") or ""
+        venue = bib.get("venue") or bib.get("journal") or bib.get("publisher") or ""
+        authors = bib.get("author", "")
+        url = coalesce_pub_url(p)
+        cites = p.get("num_citations", 0)
 
-    header = "| Title | Authors | Venue | Year | Link |\n|---|---|---|---:|---|"
+        title = html.escape(title)
+        venue = html.escape(venue)
+        authors = html.escape(authors)
+
+        rows.append(
+            f"| **{title}** | {authors} | {venue} | {year} | {cites} | [link]({url}) |"
+        )
+
+    header = "| Title | Authors | Venue | Year | Citations | Link |\n|---|---|---|---:|---:|---|"
     return header + "\n" + "\n".join(rows) if rows else "_No publications found_"
 
 def main():
@@ -73,8 +90,11 @@ def main():
         print(f"❌ Place {START} ... {END} markers in README.md")
         sys.exit(1)
 
-    new = re.sub(rf"{re.escape(START)}[\s\S]*?{re.escape(END)}",
-                 f"{START}\n{table_md}\n{END}", md)
+    new = re.sub(
+        rf"{re.escape(START)}[\s\S]*?{re.escape(END)}",
+        f"{START}\n{table_md}\n{END}",
+        md,
+    )
 
     if new != md:
         with open(README_PATH, "w", encoding="utf-8") as f:
