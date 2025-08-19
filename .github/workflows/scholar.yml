@@ -1,0 +1,37 @@
+name: Update Scholar Publications
+
+on:
+  schedule:
+    - cron: "0 0 * * 1"   # 매주 월요일 00:00 UTC
+  workflow_dispatch:       # 수동 실행 가능
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      # 둘 중 하나만 채워도 됩니다. (URL에서 user 자동 추출)
+      SCHOLAR_PROFILE_URL: ${{ secrets.SCHOLAR_PROFILE_URL }}
+      SCHOLAR_USER_ID: ${{ secrets.SCHOLAR_USER_ID }}
+      SCHOLAR_MAX_ITEMS: "6"         # 원하면 수정
+      README_PATH: "README.md"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install scholarly
+
+      - name: Update README from Google Scholar
+        run: python scripts/update_scholar.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: update publications from Google Scholar" || echo "no changes"
+          git push
