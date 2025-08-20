@@ -36,11 +36,7 @@
 
 ## 📚 Recent Publications
 <!-- SCHOLAR:START -->
-| Title | Authors | Year | Publisher | Citations |
-|:---:|:---:|:---:|:---:|:---:|
-| <div align='left' style='white-space:normal;'>[**Scattering Medium Removal Using Adaptive Masks for Scatter in the Spatial Frequency Domain**](https://ieeexplore.ieee.org/abstract/document/10973090/)</div> | <span style='white-space:nowrap;'>Jongpil&nbsp;Jeong&nbsp;et&nbsp;al.</span> | 2025 | IEEE | 0 |
-| <div align='left' style='white-space:normal;'>[**A Study of Noise Reduction Algorithm Using Statistical Optimization in Digital Holographic Microscopy**](https://ieeexplore.ieee.org/abstract/document/10613728/)</div> | <span style='white-space:nowrap;'>Jongpil&nbsp;Jeong&nbsp;et&nbsp;al.</span> | 2024 | IEEE | 1 |
-| <div align='left' style='white-space:normal;'>[**Kalman filtering optimization in Digital Holographic Microscopy (DHM)**](https://ieeexplore.ieee.org/abstract/document/10773243/)</div> | <span style='white-space:nowrap;'>Taishi&nbsp;Ono&nbsp;et&nbsp;al.</span> | 2024 | IEEE | 0 |
+_No publications found_
 <!-- SCHOLAR:END -->
 For more papers<br/>
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-blue?logo=googlescholar&style=for-the-badge)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ)
