@@ -1,2 +1,0 @@
-echo "*.m linguist-language=MATLAB" >> .gitattributes
-echo "*.c linguist-language=C" >> .gitattributes
