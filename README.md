@@ -21,11 +21,11 @@
 - Night Vision
 - Deep Learning
 
-For more informations
+For more informations<br/>
 🌐 Links<br/>
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_ID/)<br/>
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en)<br/>
-[![Blog](https://img.shields.io/badge/Blog-Visit%20My%20Blog-blue?style=for-the-badge&logo=google-chrome)]([https://your-blog-url.com](https://jongpil0911.github.io))<br/>
+[![Blog](https://img.shields.io/badge/Blog-Visit%20My%20Blog-4285F4?style=flat-square&logo=google-chrome&logoColor=white)](https://jongpil0911.github.io)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jongpil-jeong-215894281)
 
 
 ## Language
