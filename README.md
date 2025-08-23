@@ -22,9 +22,10 @@
 - Deep Learning
 
 For more informations
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_ID/)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=YOUR_ID&hl=en)
-[![Blog](https://img.shields.io/badge/Blog-Visit%20My%20Blog-blue?style=for-the-badge&logo=google-chrome)]([https://your-blog-url.com](https://jongpil0911.github.io))
+🌐 Links<br/>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_ID/)<br/>
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en)<br/>
+[![Blog](https://img.shields.io/badge/Blog-Visit%20My%20Blog-blue?style=for-the-badge&logo=google-chrome)]([https://your-blog-url.com](https://jongpil0911.github.io))<br/>
 
 
 ## Language
@@ -61,17 +62,6 @@ For more informations
 ![macOS](https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
 
-
-
-
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_ID/)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=YOUR_ID&hl=en)
-[![Blog](https://img.shields.io/badge/Blog-Visit%20My%20Blog-blue?style=for-the-badge&logo=google-chrome)]([https://your-blog-url.com](https://jongpil0911.github.io))
----
-## 🌐 Links
-- [📖 My Blog](https://your-blog-url.com)
-- [💼 LinkedIn](https://www.linkedin.com/in/your-id)
 
 
 ## 📚 Recent Publications
