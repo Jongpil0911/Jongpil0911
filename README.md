@@ -37,12 +37,17 @@ For more papers<br/>
 
 
 ## 📬 Contact
-[![Email Kyutech](https://img.shields.io/badge/Email-Kyutech-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:jeong.jongpil383@mail.kyutech.jp)
-[![Email Personal](https://img.shields.io/badge/Email-Personal-4285F4?style=flat-square&logo=gmail&logoColor=white)](mailto:jeongpil0911@gmail.com)  <br/>
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_ID/) 
+[![Email Personal](https://img.shields.io/badge/Personal-4285F4?style=flat-square&logo=gmail&logoColor=white)](mailto:jeongpil0911@gmail.com)
+[![Email Kyutech](https://img.shields.io/badge/Kyutech-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:jeong.jongpil383@mail.kyutech.jp)
+[![Email Dong-A](https://img.shields.io/badge/Dong--A-004EA2?style=flat-square&logo=gmail&logoColor=white)](mailto:1830434@donga.ac.kr) <br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jongpil-jeong-215894281) 
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en)  <br/>
-[![CV](https://img.shields.io/badge/CV-Download-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](https://your-cv-link.com)
-[![Résumé](https://img.shields.io/badge/Résumé-Download-ff69b4?style=flat-square&logo=googledocs&logoColor=white)](https://your-resume-link.com)
+
+[![CV](https://img.shields.io/badge/CV-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](https://your-cv-link.com)
+[![Résumé](https://img.shields.io/badge/Resume-ff69b4?style=flat-square&logo=googledocs&logoColor=white)](https://your-resume-link.com) <br/>
+
+[![Blog](https://img.shields.io/badge/Blog-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://jongpil0911.github.io)
 
 ---
 
@@ -57,7 +62,7 @@ For more papers<br/>
 
 ### Speaking
 - 🇰🇷 Korean (Native)  
-- 🇺🇸 English  
+- 🇺🇸 [English](https://github.com/user-attachments/files/21950163/9920056-certificate.pdf)
 - 🇯🇵 Japanese
 
 ---
