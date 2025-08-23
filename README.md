@@ -5,34 +5,69 @@
 
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&langs_count=10&theme=github_dark&hide=html,ruby,scss,css&v=2" height=200 />
+<!--   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&langs_count=10&theme=github_dark&hide=html,ruby,scss,css&v=2" height=200 /> -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&langs_count=6&theme=github_dark&hide=html&v=2" height=200 />
   <img src="https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true&theme=github_dark" height=165 />
 </div>
 
 
 
 ## Research Interests
-- Biomedical Imaging System
-- Digital Holographic Microscopy
-- Three-dimentional Imaing Systems
 - Image processing
+- Noise Reduction Algorithm
+- Biomedical Imaging System
+  - Digital Holographic Microscopy
+- Three-dimentional Imaing Systems
+- Night Vision
+- Deep Learning
 
+For more informations
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_ID/)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=YOUR_ID&hl=en)
+[![Blog](https://img.shields.io/badge/Blog-Visit%20My%20Blog-blue?style=for-the-badge&logo=google-chrome)]([https://your-blog-url.com](https://jongpil0911.github.io))
 
 
 ## Language
-<!-- [![Language](https://skillicons.dev/icons?i=python,c,cpp,matlab,markdown)](https://skillicons.dev)-->
-
-
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=matlab&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Verilog](https://img.shields.io/badge/Verilog-8A2BE2?style=flat-square&logoColor=white)
+
+## Libraries / Framework
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=plotly&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+
+## Tools / IDE
+![Qt](https://img.shields.io/badge/Qt-41CD52?style=flat-square&logo=qt&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat-square&logo=pycharm&logoColor=white)
+![CLion](https://img.shields.io/badge/CLion-000000?style=flat-square&logo=clion&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+
+## Version Control / Docs
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
+
+
+## Operating Systems
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white)
 
 
 
 
-[![Blog](https://img.shields.io/badge/Blog-Visit%20My%20Blog-blue?style=for-the-badge&logo=google-chrome)](https://your-blog-url.com)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_ID/)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=YOUR_ID&hl=en)
+[![Blog](https://img.shields.io/badge/Blog-Visit%20My%20Blog-blue?style=for-the-badge&logo=google-chrome)]([https://your-blog-url.com](https://jongpil0911.github.io))
 ---
 ## 🌐 Links
 - [📖 My Blog](https://your-blog-url.com)
@@ -49,14 +84,6 @@
 <!-- SCHOLAR:END -->
 For more papers<br/>
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-blue?logo=googlescholar&style=for-the-badge)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ)
-
-
-
-<img src="https://img.shields.io/badge/Python-3766AB?style=flat-square&logo=Python&logoColor=white"/></a>
-&nbsp 
-
-
-
 
 
 
