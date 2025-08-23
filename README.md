@@ -108,8 +108,6 @@ For more papers<br/>
 | <img src="https://leetcard.jacoblin.cool/YOUR_ID?theme=dark&ext=heatmap&animation=true" height=200 > | <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=jongpil0911@naver.com" height=200 > |
 |:---:|:---:|
 
-
-
 <!--
 
 ## 📬 Contact
