@@ -47,7 +47,9 @@ For more papers<br/>
 [![CV](https://img.shields.io/badge/CV-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](https://your-cv-link.com)
 [![Résumé](https://img.shields.io/badge/Resume-ff69b4?style=flat-square&logo=googledocs&logoColor=white)](https://your-resume-link.com) <br/>
 
-[![Blog](https://img.shields.io/badge/Blog-4285F4?style=flat-square&logo=googlechrome&logoColor=white)](https://jongpil0911.github.io)
+[![Blog](https://img.shields.io/badge/Blog-181717?style=flat-square&logo=github&logoColor=white)](https://jongpil0911.github.io)
+
+
 
 ---
 
