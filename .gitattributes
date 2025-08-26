@@ -1,0 +1,13 @@
+*.m linguist-language=MATLAB
+
+*.c linguist-language=C
+*.h linguist-language=C
+
+*.cpp linguist-language=C++
+*.hpp linguist-language=C++
+
+
+
+
+echo "*.m linguist-language=MATLAB" >> .gitattributes
+echo "*.c linguist-language=C" >> .gitattributes
