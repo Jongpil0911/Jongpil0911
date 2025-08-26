@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  26 AUG 2025 23:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.11.5)  26 AUG 2025 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -291,7 +291,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip64
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 14.
+Package hyperref Info: Option `breaklinks' set `true' on input line 15.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count280
@@ -299,88 +299,88 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 ) (./main-4.aux)
 \openout1 = `main-4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -416,23 +416,23 @@ LaTeX Font Info:    ... okay on input line 24.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 25.
 (./main-4.out) (./main-4.out)
 \@outlinefile=\write3
 \openout3 = `main-4.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
+Underfull \hbox (badness 10000) in paragraph at lines 51--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--61
+Underfull \hbox (badness 10000) in paragraph at lines 57--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--86
+Underfull \hbox (badness 10000) in paragraph at lines 78--87
 
  []
 
@@ -443,13 +443,13 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-LaTeX Font Info:    Trying to load font information for C70+min on input line 92.
+LaTeX Font Info:    Trying to load font information for C70+min on input line 93.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/contrib/wadalab/c70min.fd
 File: c70min.fd 2021/10/16 4.8.5
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/contrib/wadalab/c70min.fdx
 File: c70min.fdx 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 91--96
+Underfull \hbox (badness 10000) in paragraph at lines 92--97
 
  []
 
@@ -458,7 +458,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 105--110
+Underfull \hbox (badness 10000) in paragraph at lines 106--111
 
  []
 
@@ -467,14 +467,14 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 112--117
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
 
  []
 
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <6> on input line 126.
+(Font)              <6> on input line 127.
 LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <5> on input line 126.
+(Font)              <5> on input line 127.
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
@@ -510,7 +510,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 507--511
+Underfull \hbox (badness 10000) in paragraph at lines 508--512
 
  []
 
@@ -519,7 +519,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 512--516
+Underfull \hbox (badness 10000) in paragraph at lines 513--517
 
  []
 
@@ -528,7 +528,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 517--521
+Underfull \hbox (badness 10000) in paragraph at lines 518--522
 
  []
 
@@ -537,12 +537,12 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 522--526
+Underfull \hbox (badness 10000) in paragraph at lines 523--527
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--530
+Underfull \hbox (badness 10000) in paragraph at lines 528--531
 
  []
 
@@ -563,7 +563,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,874b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjhira.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjka.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjkata.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjkb.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjkc.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjkd.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjke.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjkf.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjkg.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjkh.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjki.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjkj.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjkk.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjkl.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjko.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/wadalab/dmj/dmjsy.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb>
-Output written on main-4.pdf (4 pages, 217993 bytes).
+Output written on main-4.pdf (4 pages, 217994 bytes).
 PDF statistics:
  239 PDF objects out of 1000 (max. 8388607)
  142 compressed objects within 2 object streams

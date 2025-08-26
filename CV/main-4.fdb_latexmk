@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1756217669.35008 "/Users/jongpiljeong/Desktop/Github/Jongpil0911/CV/main-4.tex" "main-4.pdf" "main-4" 1756217670.04797 0
-  "/Users/jongpiljeong/Desktop/Github/Jongpil0911/CV/main-4.tex" 1756217669.10631 27705 245834e05e05dff857ea742ed0204ff5 ""
+["pdflatex"] 1756218069.35149 "/Users/jongpiljeong/Desktop/Github/Jongpil0911/CV/main-4.tex" "main-4.pdf" "main-4" 1756218070.00608 0
+  "/Users/jongpiljeong/Desktop/Github/Jongpil0911/CV/main-4.tex" 1756218069.14419 27736 b1be1407607419be4d924bc76b626464 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1136768653 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
@@ -225,9 +225,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1730764612.61489 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1730764565 8221429 a4a9abb41f376e33f30472c7d9e2cf07 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "main-4.aux" 1756217669.92629 162 59504cb8f8bee0a3f0488d753cb23a1e "pdflatex"
-  "main-4.out" 1756217669.71231 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main-4.tex" 1756217669.10631 27705 245834e05e05dff857ea742ed0204ff5 ""
+  "main-4.aux" 1756218069.89444 162 59504cb8f8bee0a3f0488d753cb23a1e "pdflatex"
+  "main-4.out" 1756218069.68282 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main-4.tex" 1756218069.14419 27736 b1be1407607419be4d924bc76b626464 ""
   (generated)
   "main-4.aux"
   "main-4.log"
