@@ -68,7 +68,7 @@ For more papers<br/>
 
 
 ### Speaking
-- 🇰🇷 Korean (Native)  
+- 🇰🇷 Korean (Native)
 - 🇺🇸 [English](https://github.com/user-attachments/files/21950163/9920056-certificate.pdf)
 - 🇯🇵 Japanese
 
