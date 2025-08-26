@@ -1,0 +1,585 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage{CJKutf8}
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{letterpaper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{tabularx}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{breaklinks=true}
+\sloppy
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+%%%%%%%%%%
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead{}
+\fancyhead[L]{\textit{Jongpil Jeong}}
+\fancyhead[R]{\textit{August 2025}}
+\thispagestyle{empty} % Remove header from the first page
+
+% Header
+\begin{flushleft}
+\href{https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en}{\textbf{\LARGE Jongpil Jeong}}\\[2pt] % Name
+Master course, Kyushu Institute of Technology, Iizuka, ,Fukuoka, Japan
+\\ \href{mailto:jeong.jongpil383@mail.kyutech.jp}{jeong.jongpil383@mail.kyutech.jp} %| \href{https://www.linkedin.com/in/JohnDoe}{www.linkedin.com/in/JohnDoe} | \href{https://JohnDoe/en/staff/single/59}{Organization page} % Contact info \\
+\\ \href{mailto:jeongjongpil0911@gmail.com}{jeongjongpil0911@gmail.com} %| \href{https://www.linkedin.com/in/JohnDoe}{www.linkedin.com/in/JohnDoe} | \href{https://JohnDoe/en/staff/single/59}{Organization page} % Contact info \\
+\\ \href{tel:+82-10-8912-3304}{+82-10-8912-3304}
+\\ \href{tel:+81-90-7269-3467}{+81-90-7269-3467}
+\end{flushleft} 
+
+
+% Image processing, Computer vision, Statistical optics, Dehaze algorithm, Digital holographic microscopy, Medical imaging system.
+
+% Education Section
+\section*{EDUCATION}
+% \noindent
+\textbf{Kyushu Institute of Technology}, Iizuka, Fukuoka, Japan                         \hfill Apr. 2024 | Mar. 2026 (Expected)\\ % University name and location
+Master of Engineering in Graduate School of Computer Science and Systems Engineering \\   
+Department of Creative Informatics \hfill Cumulative GPA: 3.20/4.00 \\ % Degree and GPA                                                      
+Thesis (in progress): ``Visibility restoration via spatial frequency domain interpretation under harsh conditions''  \\
+Advisor: Prof. Min-Chul Lee \\
+
+\noindent
+\textbf{Dong-A University}, Busan, Korea \hfill Mar. 2018 | Feb. 2024\\ % University name and location
+Bachelor of Engineering in Electronics Engineering, College of Engineering \hfill Cumulative GPA: 3.91/4.50 \\ % Degree and GPA
+% Department of Eletronics Engineering \\
+% Additional info
+
+% Education Section
+\section*{RESEARCH INTERESTS}
+% \noindent
+\begin{itemize}
+    \item \textbf{Image processing}
+    \item Computer vision
+    \item Statistical optics
+    \item \textbf{Denoising / Deblurring algorithm}
+    \item Three-dimensional imaging system
+    \item Biomedical imaging system
+    \item Data science
+    \item Deep learning / Machine learning
+\end{itemize} 
+
+\section*{SKILLS}
+\textbf{Language}: Korean (Native), English (\href{https://github.com/user-attachments/assets/f578b432-f7a8-410e-851c-852e9ae55378}{OPIc IH}), Japanese \\ 
+\textbf{Programming}: C/C++, Python, MATLAB, LaTeX  \\
+% \textbf{Language}
+% \begin{itemize}
+%     \item \textbf{Speaking}:  Korean(Native), English (\href{https://github.com/user-attachments/files/21950163/9920056-certificate.pdf}{OPIc}), Japanese
+%     \item \textbf{Programming:} C/C++, Python, MATLAB, LaTeX
+% \end{itemize}
+\textbf{Software:} PyTorch, TensorFlow, OpenCV, Qt, Pandas, NumPy, Scipy, Plotly \\
+\textbf{OS}: Windows, Linux, macOS \\
+
+
+% Projects Section
+\section*{RESEARCH PROJECTS}
+% 소방청
+\noindent 
+\textbf{\begin{CJK}{UTF8}{min}視界が悪い災害現場を光信号処理とAIにより視界良好とするAR 救援補助システムの開発\end{CJK}} \hfill Fukuoka, Japan\\% Project name and location
+Development of an AR-Based Rescue Assistance System for Disaster Environments \\ with Poor Visibility Using Optical Signal Processing and AI
+\textit{Researcher} \hfill May 2024 | Mar. 2025 \\
+Grant type: Consigned research \\% Project link and duration
+
+
+% \begin{itemize}
+%     \item Conducted joint research with an industry partner under NDA, focusing on advanced image processing.
+%     \item Optical equipment design.
+%     \item Built a lightweight UI using Qt for visualization.
+% \end{itemize}
+% 히타치
+
+\noindent 
+\textbf{\begin{CJK}{UTF8}{min}孵化前のニワトリにおける性別診断技術の開発\end{CJK}} \hfill Fukuoka, Gifu, Nagoya, Tokyo, Niigata, Ibaraki, Japan\\ % Project name and location
+Development of a Sex Determination Technique for Pre-Hatched Chick Embryos
+\textit{Researcher}  \hfill Mar. 2024 | Nov. 2024 \\ % Project link and duration
+Grant type: Joint Research \\
+
+% 카캥
+\noindent 
+\textbf{\begin{CJK}{UTF8}{min}煙等の散乱媒質による視界不良現場を可視化するための画像処理技術の研究\end{CJK}} \hfill Fukuoka, Japan\\ % Project name and location
+Image Processing Techniques for Visualizing Low-Visibility Scenes Caused \\ by Scattering Media such as Smoke
+\textit{Researcher} \hfill Apr. 2024 | Mar. 2025 \\  % Project link and duration
+Grant number: 24K01120 \\
+
+% Paper publications
+\section*{PUBLICATIONS}
+
+\noindent
+\textbf{Journal}
+\begin{enumerate}[label={[\arabic*]}, start=1]
+    % IEEE Access
+    \item 
+    \underbar{\textbf{J. Jeong}}, and M.-C. Lee,
+    ``Scattering Medium Removal Using Adaptive Masks for Scatter in the Spatial Frequency Domain," 
+    \textit{IEEE Access},
+    % vol. 13, pp. 72769--72777, 
+    2025.
+    doi: \href{https://doi.org/10.1109/ACCESS.2025.3563369}{10.1109/ACCESS.2025.3563369}
+\end{enumerate} 
+
+\noindent
+\textbf{Conference}
+\begin{enumerate}[label={[\arabic*]}, start=1]
+    % 2025 ICCAS
+    \item 
+    Y. Takahashi, \underbar{\textbf{J. Jeong}}, M. Cho, and M.--C. Lee, 
+    ``A research on scattering media removal and photon estimation using COLaNoPS,''
+    \textit{Proc. ICCAS 2025}, 
+    % $25^{th}$ \textit{International Conference on Control, Automation and Systems}, 
+    Incheon, Korea,
+    % pp. xxx-xxx, 
+    % doi: \href{https://doi.org/}{xxxxxxxxxxxxxxxxxxxxx},
+    % (2025. 10) (Scopus).
+    (Accepted).
+
+    % 2025 ICMV
+    \item 
+    \underbar{\textbf{J. Jeong}}, M. Cho, and M.--C. Lee, 
+    ``Advanced scattering media removal by modified ARMS and restoration of color information,'' 
+    \textit{Proc. ICMV 2025},
+    % $18^{th}$ \textit{International Conference on Machine Vision}, 
+    Paris, France,
+    % pp. xxx-xxx, 
+    % doi: \href{https://doi.org/}{xxxxxxxxxxxxxxxxxxxxx},
+    % (2025. 10) (Scopus).
+    (Accepted).
+        
+    \item 
+    S. Song, \underbar{\textbf{J. Jeong}}, M. Cho, and M.--C. Lee, 
+    ``Single Haze Removal Method using Peplography,'' 
+    \textit{Proc. ICMV 2025},
+    % $18^{th}$ \textit{International Conference on Machine Vision}, 
+    Paris, France,
+    % pp. xxx-xxx, 
+    % doi: \href{https://doi.org/}{xxxxxxxxxxxxxxxxxxxxx},
+    % (2025. 10) (Scopus).
+    (Accepted).
+
+    % 2025 ITC-CSCC
+    \item 
+    \underbar{\textbf{J. Jeong}}, M. Cho, and M.--C. Lee, 
+    ``Scattering media removal under the harsh conditions using adaptive removal via mask for scatter,'' 
+    % $40^{th}$ \textit{International Technical Conference on Circuits/Systems, Computers and Communications}, 
+    \textit{Proc. ITC-CSCC 2025},
+    Seoul, Korea, 
+    % pp. xxx-xxx, 
+    % doi: \href{https://doi.org/}{xxxxxxxxxxxxxxxxxxxxx},
+    % Jul. 2025. (Scopus).
+    (Proceeding).
+    
+    \item 
+    K. Nakamura, \underbar{\textbf{J. Jeong}}, M. Cho, and M.--C. Lee, 
+    ``Adaptive Optimization of Kalman Filtering in Digital Holographic Microscopy for Improved Noise Reduction,'' 
+    % $40^{th}$ \textit{International Technical Conference on Circuits/Systems, Computers and Communications}, 
+    \textit{Proc. ITC-CSCC 2025},
+    Seoul, Korea, 
+    % pp. xxx-xxx, 
+    % doi: \href{https://doi.org/}{xxxxxxxxxxxxxxxxxxxxx},
+    % Jul. 2025. (Scopus).
+    (Proceeding).
+    
+    \item 
+    S. Kim, \underbar{\textbf{J. Jeong}}, M. Cho, and M.--C. Lee, 
+    ``Advanced double random phase encryption for simultaneous two primary data,'' 
+    % $40^{th}$ \textit{International Technical Conference on Circuits/Systems, Computers and Communications}, 
+    \textit{Proc. ITC-CSCC 2025},
+    Seoul, Korea,
+    % pp. xxx-xxx, 
+    % doi: \href{https://doi.org/}{xxxxxxxxxxxxxxxxxxxxx},
+    % Jul. 2025. (Scopus).
+    (Proceeding).
+    
+    % 2024 ICCAS
+    \item 
+    T. Ono, \underbar{\textbf{J. Jeong}}, H.--W. Kim, M. Cho, and M.--C. Lee, 
+    ``Kalman filtering optimization in digital holographic microscopy (DHM),'' 
+    % $24^{th}$ \textit{International Conference on Control, Automation and Systems}, 
+    \textit{Proc. ICCAS 2024},
+    Jeju, Korea, pp. 786--791, 
+    doi: \href{https://doi.org/10.23919/ICCAS63016.2024.10773243}{10.23919/ICCAS63016.2024.10773243}, 
+    % Oct. 2024. 
+    (Scopus).
+
+    % 2024 JCSSE
+    \item 
+    \underbar{\textbf{J. Jeong}}, H.--W. Kim, M. Cho, and M.--C. Lee, 
+    ``A study of noise reduction algorithm using statistical optimization in digital holographic microscopy,'' 
+    \textit{Proc. JCSSE 2024},
+    % $21^{st}$ \textit{International Joint Conference on Computer Science and Software Engineering}, 
+    Phuket, Thailand, pp. 68--73, 
+    doi: \href{https://doi.org/10.1109/JCSSE61278.2024.10613728}{10.1109/JCSSE61278.2024.10613728}, 
+    % Jun. 2024. 
+    (Scopus).
+    
+\end{enumerate} 
+
+\noindent
+\textbf{Patents}
+\begin{enumerate}[label={[\arabic*]}, start=1]
+    \item 
+    M.--C. Lee and \underbar{\textbf{J. Jeong}},
+    \begin{CJK}{UTF8}{min}``画像処理装置、画像処理方法および画像処理プログラム,''\end{CJK} 
+    Japanese Patent \begin{CJK}{UTF8}{min}(特願 2025-097331)\end{CJK}
+    % (Not publicly accessible at this time due to confidentiality under Japanese patent law.)
+    \item 
+    M.--C. Lee and \underbar{\textbf{J. Jeong}},
+    \begin{CJK}{UTF8}{min}``画像処理装置、画像処理方法および画像処理プログラム,''\end{CJK} 
+    Japanese Patent \begin{CJK}{UTF8}{min}(特願 2024-214715)\end{CJK}
+    
+    \item[*] In accordance with Japanese patent law, these applications are kept confidential and are not publicly disclosed
+    for 18 months following their filling.
+
+\end{enumerate} 
+
+% % Paper publications
+% \section*{PUBLICATIONS}
+
+% \noindent
+% \textbf{Journal}
+% \begin{enumerate}[label={[\arabic*]}, start=1]
+%     % IEEE Access
+%     \item 
+%     \underbar{\textbf{J. Jeong}}, and M.-C. Lee,
+%     ``Scattering Medium Removal Using Adaptive Masks for Scatter in the Spatial Frequency Domain," 
+%     \textit{IEEE Access},
+%     vol. 13, pp. 72769--72777, 
+%     doi: \href{https://doi.org/10.1109/ACCESS.2025.3563369}{10.1109/ACCESS.2025.3563369},
+%     2025
+% \end{enumerate} 
+
+% \noindent
+% \textbf{Conference}
+% \begin{enumerate}[label={[\arabic*]}, start=1]
+%     % 2025 ICCAS
+%     \item 
+%     Y. Takahashi, \underbar{\textbf{J. Jeong}}, M. Cho, and M.--C. Lee, 
+%     ``A research on scattering media removal and photon estimation using COLaNoPS,'' 
+%     $25^{th}$ \textit{International Conference on Control, Automation and Systems}, 
+%     % Paris, France,
+%     % pp. xxx-xxx, 
+%     % doi: \href{https://doi.org/}{xxxxxxxxxxxxxxxxxxxxx},
+%     % (2025. 10) (Scopus).
+%     (Accepted).
+
+%     % 2025 ICMV
+%     \item 
+%     \underbar{\textbf{J. Jeong}}, M. Cho, and M.--C. Lee, 
+%     ``Advanced scattering media removal by modified ARMS and restoration of color information,'' 
+%     $18^{th}$ \textit{International Conference on Machine Vision}, 
+%     Paris, France,
+%     % pp. xxx-xxx, 
+%     % doi: \href{https://doi.org/}{xxxxxxxxxxxxxxxxxxxxx},
+%     % (2025. 10) (Scopus).
+%     (Accepted).
+        
+%     \item 
+%     S. Song, \underbar{\textbf{J. Jeong}}, M. Cho, and M.--C. Lee, 
+%     ``Single Haze Removal Method using Peplography,'' 
+%     $18^{th}$ \textit{International Conference on Machine Vision}, 
+%     Incheon, Korea,
+%     % pp. xxx-xxx, 
+%     % doi: \href{https://doi.org/}{xxxxxxxxxxxxxxxxxxxxx},
+%     % (2025. 10) (Scopus).
+%     (Accepted).
+
+%     % 2025 ITC-CSCC
+%     \item 
+%     \underbar{\textbf{J. Jeong}}, M. Cho, and M.--C. Lee, 
+%     ``Scattering media removal under the harsh conditions using adaptive removal via mask for scatter,'' 
+%     $40^{th}$ \textit{International Technical Conference on Circuits/Systems, Computers and Communications}, 
+%     % Seoul, Korea, pp. xxx-xxx, 
+%     % doi: \href{https://doi.org/}{xxxxxxxxxxxxxxxxxxxxx},
+%     Jul. 2025. (Scopus).
+%     (Proceeding).
+    
+%     \item 
+%     K. Nakamura, \underbar{\textbf{J. Jeong}}, M. Cho, and M.--C. Lee, 
+%     ``Adaptive Optimization of Kalman Filtering in Digital Holographic Microscopy for Improved Noise Reduction,'' 
+%     $40^{th}$ \textit{International Technical Conference on Circuits/Systems, Computers and Communications}, 
+%     % Seoul, Korea, pp. xxx-xxx, 
+%     % doi: \href{https://doi.org/}{xxxxxxxxxxxxxxxxxxxxx},
+%     Jul. 2025. (Scopus).
+%     (Proceeding).
+    
+%     \item 
+%     S. Kim, \underbar{\textbf{J. Jeong}}, M. Cho, and M.--C. Lee, 
+%     ``Advanced double random phase encryption for simultaneous two primary data,'' 
+%     $40^{th}$ \textit{International Technical Conference on Circuits/Systems, Computers and Communications}, 
+%     % Seoul, Korea, pp. xxx-xxx, 
+%     % doi: \href{https://doi.org/}{xxxxxxxxxxxxxxxxxxxxx},
+%     Jul. 2025. (Scopus).
+%     (Proceeding).
+    
+%     % 2024 ICCAS
+%     \item 
+%     T. Ono, \underbar{\textbf{J. Jeong}}, H.--W. Kim, M. Cho, and M.--C. Lee, 
+%     ``Kalman filtering optimization in digital holographic microscopy (DHM),'' 
+%     $24^{th}$ \textit{International Conference on Control, Automation and Systems}, 
+%     Jeju, Korea, pp. 786--791, 
+%     doi: \href{https://doi.org/10.23919/ICCAS63016.2024.10773243}{10.23919/ICCAS63016.2024.10773243}, 
+%     Oct. 2024. (Scopus).
+
+%     % 2024 JCSSE
+%     \item 
+%     \underbar{\textbf{J. Jeong}}, H.--W. Kim, M. Cho, and M.--C. Lee, 
+%     ``A study of noise reduction algorithm using statistical optimization in digital holographic microscopy,'' 
+%     $21^{st}$ \textit{International Joint Conference on Computer Science and Software Engineering}, 
+%     Phuket, Thailand, pp. 68--73, 
+%     doi: \href{https://doi.org/10.1109/JCSSE61278.2024.10613728}{10.1109/JCSSE61278.2024.10613728}, 
+%     Jun. 2024. (Scopus).
+    
+% \end{enumerate} 
+
+% \noindent
+% \textbf{Patents}
+% \begin{enumerate}[label={[\arabic*]}, start=1]
+%     \item 
+%     M.--C. Lee and \underbar{\textbf{J. Jeong}},
+%     \begin{CJK}{UTF8}{min}``画像処理装置、画像処理方法および画像処理プログラム,''\end{CJK} 
+%     Japan Patent \begin{CJK}{UTF8}{min}(特願 2025-097331)\end{CJK}
+%     % (Not publicly accessible at this time due to confidentiality under Japanese patent law.)
+%     \item 
+%     M.--C. Lee and \underbar{\textbf{J. Jeong}},
+%     \begin{CJK}{UTF8}{min}``画像処理装置、画像処理方法および画像処理プログラム,''\end{CJK} 
+%     Japan Patent \begin{CJK}{UTF8}{min}(特願 2024-214715)\end{CJK}
+    
+%     \item[*] In accordance with Japanese patent law, these applications are kept confidential and are not publicly disclosed
+ for 18 months following their filing.
+
+% \end{enumerate} 
+
+
+
+% \section*{AWARDS}
+% \textbf{\# Title}  \hfill \#City, \#Country\\ 
+% \# Description \hfill \#Month \#Year\\ \\
+% \textbf{\# Title}  \hfill \#City, \#Country\\ 
+% \# Description \hfill \#Month \#Year\\ \\
+% \textbf{\# Title}  \hfill \#City, \#Country\\ 
+% \# Description \hfill \#Month \#Year\\ \\
+% \textbf{\# Title}  \hfill \#City, \#Country\\ 
+% \# Description \hfill \#Month \#Year\\ \\
+
+% Experience Section
+\section*{Additional Research Experience}
+
+\noindent
+\textbf{\href{https://3cholab.wordpress.com/정보/}{Computational, Holographic and Optical signal processing Lab.} at Hankyung National University} \hfill Gyunggi-do, Korea\\ % Company name and location
+Visiting Research Intern \hfill Jan. 2024 | Feb. 2024 % Position and duration
+\begin{itemize}
+    \item Integral Imaging Systems
+    \item Principle of image encryption such as double random phase encryption (DRPE)
+    % Job responsibilities and achievements
+\end{itemize}
+
+\noindent
+\textbf{\href{https://leelab.csn.kyutech.ac.jp}{3D Optical Imaging System Lab.} at Kyushu Institute of Technology} \hfill Fukuoka, Japan\\ % Company name and location
+Visiting Research Intern (Winter \& Summer 2023) \hfill Jan.-Feb. \& Jul.-Aug. 2023\\% Position and duration
+Advisor: Prof. Min-Chul Lee 
+\begin{itemize}
+    \item Studied digital holographic microscopy and phase error correction  
+    \item Developed noise reduction algorithms under low-light (photon-starved) conditions  
+    \item Restored low-light images using photon-counting techniques
+     % Job responsibilities and achievements
+\end{itemize}
+
+\noindent
+\textbf{\href{https://soc.donga.ac.kr/soc/Main.do}{SoC Design Lab.} at Dong-A University} \hfill Busan, Korea\\ % Company name and location
+Undergraduate Research Intern \hfill Sep. 2022 | Jul. 2023 \\
+Advisor: Prof. Bongsoon Kang \\
+Completed the \href{https://github.com/user-attachments/assets/583762df-f208-4216-b836-a6a1921ec34b}{IDEC SoC Design Course} (48 hours, Spring 2023), which initiated my interest in image processing and computational systems.
+Topics covered: Verilog HDL fundamentals, structural and dataflow modeling, and algorithmic-level design.
+\begin{itemize}
+    \item Basic image processing techniques.
+    \item Principle of machine learning.
+    \item Programming with C/C++, MATLAB, Python, and Verilog
+\end{itemize}
+
+
+
+
+
+\section*{Relevant Coursework}
+% KOCW
+\noindent
+\textbf{\href{https://www.kocw.net/home/index.do}{Korea OpenCourseWare}}
+\begin{itemize}
+    \item \href{https://github.com/user-attachments/assets/d8024d63-359a-493b-9cb2-774e36a03f62}{Digital Image Processing}                                              \hfill 2025
+\end{itemize}
+
+% IDEC
+\noindent
+\textbf{\href{https://www.idec.or.kr/main/}{IC Design Education Center}}
+\begin{itemize}
+    %2024
+    \item \href{https://github.com/user-attachments/assets/234ad610-a051-4140-9f20-48ca4d8e4d42}{Implementation of CNN's FPGA with Verilog HDL}                                          \hfill 2024
+    \item \href{https://github.com/user-attachments/assets/68b0ae05-462b-4750-93ba-1bc4072dab66}{Design embedded systems based on FPGA}
+    \item \href{https://github.com/user-attachments/assets/8fbda935-4b41-44f7-b83a-8d284f003168}{Data structure and algorithm}                                          
+    \item \href{https://github.com/user-attachments/assets/805bbc13-3e6e-43d6-af75-df31f728d607}{FreeRTOS porting and utilization through Cortex-M processor}           
+    \item \href{https://github.com/user-attachments/assets/707a4f8e-3b5a-4246-a763-81e2729f9cb2}{MIMO - theory and improvement}                                         
+    %2023
+    \vspace{0.5em}
+    \item \href{https://github.com/user-attachments/assets/2d45999d-1f66-467c-b956-e16b5ed71593}{Stereovision for autonomous driving system}                            \hfill 2023
+    \item \href{https://github.com/user-attachments/assets/32bfc1d6-18cf-44a4-83dc-209b4f4686ac}{Design digital system utilized Verilog}
+    \item \href{https://github.com/user-attachments/assets/094a58df-f320-45fb-aba3-707f4a7fd8f7}{Neural network hardware accelerator "Architecture"}
+    \item \href{https://github.com/user-attachments/assets/9f74252d-eae5-40b2-b305-ea90576100aa}{DSP with MATLAB}
+    \item \href{https://github.com/user-attachments/assets/0fc8c167-bef1-4857-a664-a1b82c95e306}{Foundation of CUDA-based GPU Programming}    
+    % 2022             
+    \vspace{0.5em}             
+    \item \href{https://github.com/user-attachments/assets/b4e013f1-d7b8-4505-a4f5-12e270097549}{PLL Design and Jitter Interpretation}                                  \hfill 2022
+    \item \href{https://github.com/user-attachments/assets/73933790-2b15-46ae-8ac2-c6eaf31d9e01}{Foundation of reinforcement learning}                                  
+\end{itemize}
+
+
+% KAIST
+\noindent
+\textbf{\href{https://www.kocw.net/home/index.do}{Korea Advanced Institute of Science and Technology}}
+\begin{itemize}
+    % \item \href{https://github.com/user-attachments/files/21983055/IMG_20250826_0002_NEW_0001.pdf}{AI in Biomedical Imaging - AI in Healthcare Technique}               \hfill 2025
+    \item \href{https://github.com/user-attachments/assets/b404e1df-2798-48de-8385-c9a6c7389b38}{Microdegree from Graduate School of Data Science}                    \hfill 2023
+\end{itemize}
+
+
+\section*{Scholarships, Tuition Waivers, and Research Support}
+\noindent
+\textbf{Kyushu Institute of Technology} \\
+\textit{Waivers from Tuition Fees}
+\begin{itemize}
+    \item 2025, $1^{st}$ semester 
+    \item 2024, $1^{st} / 2^{nd}$ semester 
+\end{itemize} 
+\noindent
+Research Support
+\begin{itemize}
+    \item 
+    \begin{CJK}{UTF8}{min}
+        視界が悪い災害現場を光信号処理とAIにより視界良好とするAR 救援補助システムの開発
+    \end{CJK} \hfill Mar. 2025 - Feb. 2026 
+    \item 
+    \begin{CJK}{UTF8}{min}
+        孵化前のニワトリにおける性別診断技術の開発
+    \end{CJK} \hfill Mar. 2024 - Feb. 2025 
+    \item 
+    \begin{CJK}{UTF8}{min}
+        煙等の散乱媒質による視界不良現場を可視化するための画像処理技術の研究
+    \end{CJK} \hfill Mar. 2024 - Feb. 2025 
+\end{itemize}
+
+
+\noindent
+\textbf{Dong-A University} \\
+\textit{Academic Excellence Scholarship}
+\begin{itemize}
+    \item 2023, $1^{st} / 2^{nd}$ semester 
+    \item 2022, $1^{st}$ semester 
+    \item 2021, $2^{nd}$ semester 
+    \item 2018, $2^{nd}$ semester 
+\end{itemize} 
+\textit{Advisory Professor Scholarship from Dong-A University}
+\begin{itemize}
+    \item 2022, $2^{nd}$ semester 
+\end{itemize} 
+\textit{Undergraduate Education Assistant Scholarship from Dong-A University}
+\begin{itemize}
+    \item 2023, $1^{st}/2^{nd}$ semester 
+    \item 2022, $2^{nd}$ semester 
+\end{itemize} 
+
+
+
+
+
+\section*{Leadership \& Volunteering}
+\noindent
+\textbf{\href{https://innovationjapan.jst.go.jp}{\begin{CJK}{UTF8}{min}大学見本市2025〜イノベーション・ジャパン\end{CJK}}}  \hfill Tokyo, Japan\\ % Company name and location
+Innovation Japan 2025  \hfill Aug. 21 2025 | Aug. 22 2025  \\% Position and duration
+Student Staff \\
+
+\noindent
+\textbf{\href{https://www.iizuka.kyutech.ac.jp/admissions/open/open2025}{\begin{CJK}{UTF8}{min}オープンキャンパス 2025\end{CJK}}}  \hfill Fukuoka, Japan\\ % Company name and location
+Open Campus 2025 (Iizuka Campus, Kyushu Institute of Technology) \hfill Jul. 19 2025 | Jul. 20 2025 \\
+Student Staff \\ % Position and duration
+
+\noindent
+\textbf{\begin{CJK}{UTF8}{min}{協定校との国際交流及びセミナー}\end{CJK}} \hfill Fukuoka, Japan\\
+International Capstone Design Presentation with Partner Universities  \hfill Jan. 2025 \\
+Participant (Student Delegate)\\
+
+\noindent
+\textbf{\begin{CJK}{UTF8}{min}{協定校との国際共同研究打合せ及び共同セミナー}\end{CJK}} \hfill Kumamoto, Japan \\
+International Joint Research Meeting and Seminar \hfill Aug. 2024 \\
+Participant (Student Delegate)\\
+
+\noindent
+\textbf{Dong--A Ping--Pong Association (DAPPA)}  \hfill Busan, Korea\\ % Company name and location
+President \hfill Mar. 2021 | Feb. 2022 \\% Position and duration
+
+\section*{Military Service}
+\noindent
+\textbf{Republic of Korea Army} \hfill Haman-gun, Gyeongsangnam-do, Korea \\
+\textit{Sergeant (E-5), Active Duty Soldier} \hfill Apr. 2019 | Nov. 2020
+\begin{itemize}
+    % \item \href{https://github.com/user-attachments/files/21983055/IMG_20250826_0002_NEW_0001.pdf}{AI in Biomedical Imaging - AI in Healthcare Technique}               \hfill 2025
+    \item \href{https://github.com/user-attachments/assets/584d8f84-5bbe-4a71-9ae3-bda5ce40bd6f}{Award for Outstanding Army Warrior}  
+    \item \href{https://github.com/user-attachments/assets/d3b82b44-dff0-4d58-a944-747f46f8a50e}{Certificate of Appointment as Squad Leader}
+    \item \href{https://github.com/user-attachments/assets/8565647d-3609-4866-8e18-fbdf9a9e227c}{Appointment Certificate as Squad Representative Soldier}
+    \item \href{https://github.com/user-attachments/assets/f4f76912-92a7-440e-b8a2-4ce52b1ec39a}{Commendation for Exemplary Soldier}
+\end{itemize}
+% \begin{itemize}
+%     \item \textbf{\href{https://viewscreen.githubusercontent.com/view/pdf?browser=safari&bypass_fastly=true&color_mode=auto&commit=2215c6ebbad5842a11bd9c9dcda1810569893183&device=unknown_device&docs_host=https%3A%2F%2Fdocs.github.com&enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f4a6f6e6770696c303931312f4a6f6e6770696c303931312e6769746875622e696f2f323231356336656262616435383432613131626439633964636461313831303536393839333138332f6173736574732f494d475f32303235303832365f303030335f4e45572e706466&link_underline_enabled=true&logged_in=true&nwo=Jongpil0911%2FJongpil0911.github.io&path=assets%2FIMG_20250826_0003_NEW.pdf&platform=mac&repository_id=767055468&repository_type=Repository&version=18#9a5379c5-c432-422f-861c-179ec99d82ff}{Award for Outstanding Army Warrior}} \hfill 2020
+% \end{itemize}
+
+
+
+
+% Completed mandatory military service as a squad leader in an artillery unit; responsible for team coordination, safety checks, and equipment management.
+% \begin{itemize}
+%     \item \# Description of your job duty and responsibilities.
+%     \item \# Description of your job duty and responsibilities.
+%     \item \# Description of your job duty and responsibilities.
+%     \item \# Description of your job duty and responsibilities.
+% \end{itemize}
+
+
+% \section*{ENGLISH \& GRE TESTS}
+%     \begin{tabularx}{1\textwidth}{
+%     >{\raggedright\arraybackslash}X 
+%    >{\raggedright\arraybackslash}X }
+%       \textbf{IELTS (Academic): 7.5} (overall score)&   \textbf{GRE General Test:}\\ \\
+%     Listening: XX | Reading: XX & Quant: XXX | Verbal: XXX\\
+%     Speaking: XX   | Writing: XX& Analytical writing: X\\
+%     Test date: \#Month \#Year &Test date: \#Month \#Year
+%     \end{tabularx}
+
+% Skills Section
+
+
+% \section*{REFERENCES}
+% \textbf{Prof. Min-Chul Lee}\\
+% \textit{Associate professor, Department of Computer Science and Networks, Graduate School of Computer Science and Systems Engineering, Kyushu Institute of Technology, Iizuka, Fukuoka, Japan}\\
+% E-mail: \href{mailto:lee@csn.kyutech.ac.jp}{lee@csn.kyutech.ac.jp}\\
+% Scholar Profiles: \href{https://leelab.csn.kyutech.ac.jp}{Lee Lab.} | \href{https://scholar.google.com/citations?user=9sv1-5QAAAAJ&hl=en&oi=ao}{Google Scholar}\\ \\
+% \textbf{Prof. Myungjin Cho}\\
+% \textit{Professor, School of ICT, Robotics and Mechanical Engineering, IITC, Hankyong National University, Anseong, Kyonggi-do, Korea}\\
+% E-mail: \href{mailto:mjcho@hknu.ac.kr}{mjcho@hknu.ac.kr}\\
+% Scholar Profiles: \href{https://3cholab.wordpress.com}{3CHO Lab.} | \href{https://scholar.google.com/citations?hl=en&user=WAvCU2kAAAAJ}{Google Scholar}\\ \\
+% \textbf{Prof. Bongsoon Kang}\\
+% \textit{Professor, Department of Eletronics Engineering, Collage of Engineering, Dong-A University, Busan, Korea}\\
+% E-mail: \href{mailto:bongsoon@dau.ac.kr}{bongsoon@dau.ac.krn}\\
+% Scholar Profiles: \href{https://soc.donga.ac.kr/soc/Main.do}{SoC Design Lab.} | \href{https://www.dbpia.co.kr/author/authorDetail?ancId=810834}{DBpia}\\ \\
+% End document
+\end{document}
