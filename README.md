@@ -40,7 +40,7 @@ For more papers<br/>
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jongpil-jeong-215894281) 
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en)  <br/>
 
-[![CV](https://img.shields.io/badge/CV-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](https://your-cv-link.com)
+[![CV](https://img.shields.io/badge/CV-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](./CV/main-4.pdf)
 [![Résumé](https://img.shields.io/badge/Resume-ff69b4?style=flat-square&logo=googledocs&logoColor=white)](https://your-resume-link.com) <br/>
 
 [![Blog](https://img.shields.io/badge/Blog-181717?style=flat-square&logo=github&logoColor=white)](https://jongpil0911.github.io)
