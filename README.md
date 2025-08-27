@@ -1,9 +1,12 @@
-## Welcome to my massive brain
+## Welcome to my Massive Brain 🧠
 
-I ususlly programming for research, and here is my lanaguges for it
+Hi, I’m Jongpil — a research-driven programmer passionate about optics and imaging.  
+
 
 <!--Jongpil0911
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" /> -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" 
+I ususlly programming for research, and here is my lanaguges for it
+/> -->
 
 
 <div align="center">
@@ -12,7 +15,7 @@ I ususlly programming for research, and here is my lanaguges for it
   <img src="https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true&theme=github_dark" height=165 />
 </div>
 
-And i usually researched that
+Here’s what I code with (a lot), and what I love exploring:
 
 ## 📖 Research Interests
 - Image processing
