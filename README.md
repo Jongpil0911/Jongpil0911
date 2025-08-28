@@ -89,7 +89,7 @@ For more papers<br/>
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
 
 ![Pylon](https://img.shields.io/badge/Pylon-003366?style=flat-square&logo=camera&logoColor=white)
-![Spinnaker](https://img.shields.io/badge/Spinnaker-003049?style=flat-square&logo=camera&logoColor=white
+![Spinnaker](https://img.shields.io/badge/Spinnaker-003049?style=flat-square&logo=camera&logoColor=white)
 ![DigitCam](https://img.shields.io/badge/DigitCam-1E3A8A?style=flat-square&logo=cameraroll&logoColor=white)
 ---
 
