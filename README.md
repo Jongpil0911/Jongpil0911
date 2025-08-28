@@ -88,6 +88,9 @@ For more papers<br/>
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
 
+
+![Pylon](https://img.shields.io/badge/Pylon-003366?style=flat-square&logo=camera&logoColor=white)
+![Spinnaker](https://img.shields.io/badge/Spinnaker-003049?style=flat-square&logo=camera&logoColor=white)
 ---
 
 ## 🖥️ Operating Systems
