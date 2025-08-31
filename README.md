@@ -1,18 +1,21 @@
-## Welcome to my massive brain
+## Welcome to my Massive Brain 🧠
 
-I ususlly programming for research, and here is my lanaguges for it
+Hi, I’m Jongpil — a research-driven programmer passionate about optics and imaging.  
+
 
 <!--Jongpil0911
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" /> -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" 
+I ususlly programming for research, and here is my lanaguges for it
+/> -->
 
 
 <div align="center">
 <!--   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&langs_count=10&theme=github_dark&hide=html,ruby,scss,css&v=2" height=200 /> -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&langs_count=6&theme=github_dark&hide=html&v=2" height=200 />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&langs_count=6&theme=github_dark&hide=html,ruby&v=2" height=200 />
   <img src="https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true&theme=github_dark" height=165 />
 </div>
 
-And i usually researched that
+Here’s what I code with (a lot), and what I love exploring:
 
 ## 📖 Research Interests
 - Image processing
@@ -25,11 +28,7 @@ And i usually researched that
 
 ## 📚 Recent Publications
 <!-- SCHOLAR:START -->
-| Title | Authors | Year | Publisher | Citations |
-|:---:|:---:|:---:|:---:|:---:|
-| <div align='left' style='white-space:normal;'>[**Scattering Medium Removal Using Adaptive Masks for Scatter in the Spatial Frequency Domain**](https://ieeexplore.ieee.org/abstract/document/10973090/)</div> | <span style='white-space:nowrap;'>Jongpil&nbsp;Jeong&nbsp;et&nbsp;al.</span> | 2025 | IEEE | 0 |
-| <div align='left' style='white-space:normal;'>[**A Study of Noise Reduction Algorithm Using Statistical Optimization in Digital Holographic Microscopy**](https://ieeexplore.ieee.org/abstract/document/10613728/)</div> | <span style='white-space:nowrap;'>Jongpil&nbsp;Jeong&nbsp;et&nbsp;al.</span> | 2024 | IEEE | 1 |
-| <div align='left' style='white-space:normal;'>[**Kalman filtering optimization in Digital Holographic Microscopy (DHM)**](https://ieeexplore.ieee.org/abstract/document/10773243/)</div> | <span style='white-space:nowrap;'>Taishi&nbsp;Ono&nbsp;et&nbsp;al.</span> | 2024 | IEEE | 0 |
+_No publications found_
 <!-- SCHOLAR:END -->
 For more papers<br/>
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en)
@@ -89,6 +88,9 @@ For more papers<br/>
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
 
+![Pylon](https://img.shields.io/badge/Pylon-003366?style=flat-square&logo=camera&logoColor=white)
+![Spinnaker](https://img.shields.io/badge/Spinnaker-003049?style=flat-square&logo=camera&logoColor=white)
+![DigitCam](https://img.shields.io/badge/DigitCam-1E3A8A?style=flat-square&logo=cameraroll&logoColor=white)
 ---
 
 ## 🖥️ Operating Systems
