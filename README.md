@@ -1,4 +1,4 @@
-## Welcome to my Massive Brain 🧠
+## Welcome to my Messive Brain 🧠
 
 Hi, I’m Jongpil — a research-driven programmer passionate about optics and imaging.  
 
