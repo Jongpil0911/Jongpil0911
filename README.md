@@ -18,13 +18,13 @@ I ususlly programming for research, and here is my lanaguges for it
 Here’s what I code with (a lot), and what I love exploring:
 
 ## 📖 Research Interests
-- Image processing
+- Image processing & Computer vision
 - Noise Reduction Algorithm
 - Biomedical Imaging System
   - Digital Holographic Microscopy
 - Three-dimentional Imaing Systems
 - Night Vision
-- Deep Learning
+- Deep Learning & Machine Learning
 
 ## 📚 Recent Publications
 <!-- SCHOLAR:START -->
