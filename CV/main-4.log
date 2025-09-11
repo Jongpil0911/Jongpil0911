@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.10)  10 SEP 2025 21:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.9.10)  12 SEP 2025 06:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -428,17 +428,17 @@ Package hyperref Info: Link coloring OFF on input line 26.
 \openout3 = `main-4.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--73
+Underfull \hbox (badness 10000) in paragraph at lines 70--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--80
+Underfull \hbox (badness 10000) in paragraph at lines 77--83
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
@@ -449,13 +449,13 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-LaTeX Font Info:    Trying to load font information for C70+min on input line 109.
+LaTeX Font Info:    Trying to load font information for C70+min on input line 112.
  (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/contrib/wadalab/c70min.fd
 File: c70min.fd 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/contrib/wadalab/c70min.fdx
 File: c70min.fdx 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 108--113
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
 
  []
 
@@ -464,7 +464,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 122--127
+Underfull \hbox (badness 10000) in paragraph at lines 125--130
 
  []
 
@@ -473,12 +473,12 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 129--134
+Underfull \hbox (badness 10000) in paragraph at lines 132--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 143--149
+Underfull \hbox (badness 10000) in paragraph at lines 146--152
 
  []
 
@@ -487,7 +487,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--149
 [1
 
 {/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 241--248
+Underfull \hbox (badness 10000) in paragraph at lines 244--251
 
  []
 
@@ -508,28 +508,24 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--420
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
+Underfull \hbox (badness 10000) in paragraph at lines 423--425
 
  []
 
 
 
-[2] (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
-File: UTF8.enc 2021/10/16 4.8.5
-) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
-File: UTF8.chr 2021/10/16 4.8.5
-)
-Underfull \hbox (badness 10000) in paragraph at lines 513--517
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
 
  []
 
@@ -551,7 +547,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 523--527
 
  []
 
-(/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+
+
+[3] (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
@@ -560,10 +558,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 528--532
 
  []
 
+(/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2021/10/16 4.8.5
+) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2021/10/16 4.8.5
+)
+Underfull \hbox (badness 10000) in paragraph at lines 533--537
+
+ []
 
 
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 533--536
+Underfull \hbox (badness 10000) in paragraph at lines 538--541
 
  []
 
@@ -586,7 +591,7 @@ Here is how much of TeX's memory you used:
  319 hyphenation exceptions out of 8191
  75i,11n,79p,876b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/jongpiljeong/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjhira.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjka.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkata.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkb.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkc.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkd.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjke.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkf.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkg.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkh.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjki.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkj.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkk.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkl.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjko.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjsy.pfb>
-Output written on main-4.pdf (4 pages, 211774 bytes).
+Output written on main-4.pdf (4 pages, 211685 bytes).
 PDF statistics:
  240 PDF objects out of 1000 (max. 8388607)
  142 compressed objects within 2 object streams
