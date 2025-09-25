@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.14)  25 SEP 2025 16:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.9.14)  25 SEP 2025 17:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -469,22 +469,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--137
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--152
-
- []
-
-
 
 [1
 
-{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 244--251
-
- []
-
-LaTeX Font Info:    External font `cmex7' loaded for size
-(Font)              <7> on input line 260.
-(/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+{/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
 File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
@@ -505,24 +493,19 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--297
+Underfull \hbox (badness 10000) in paragraph at lines 297--299
 
  []
 
 
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 306--308
+Underfull \hbox (badness 10000) in paragraph at lines 308--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
@@ -533,7 +516,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 400--404
+Underfull \hbox (badness 10000) in paragraph at lines 402--406
 
  []
 
@@ -542,7 +525,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 405--409
+Underfull \hbox (badness 10000) in paragraph at lines 407--411
 
  []
 
@@ -551,7 +534,7 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 410--414
+Underfull \hbox (badness 10000) in paragraph at lines 412--416
 
  []
 
@@ -560,12 +543,12 @@ File: UTF8.enc 2021/10/16 4.8.5
 ) (/usr/local/texlive/2025basic/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
 File: UTF8.chr 2021/10/16 4.8.5
 )
-Underfull \hbox (badness 10000) in paragraph at lines 415--419
+Underfull \hbox (badness 10000) in paragraph at lines 417--421
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--431
+Underfull \hbox (badness 10000) in paragraph at lines 430--433
 
  []
 
@@ -581,17 +564,17 @@ Package rerunfilecheck Info: File `main-4.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  11279 strings out of 469272
- 175396 string characters out of 5467191
+ 175385 string characters out of 5467191
  604403 words of memory out of 5000000
  39354 multiletter control sequences out of 15000+600000
- 668274 words of font info for 199 fonts, out of 8000000 for 9000
+ 666997 words of font info for 194 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  75i,11n,79p,876b,915s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </Users/jongpiljeong/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjhira.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjka.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkata.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkb.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkc.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkd.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjke.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkf.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkg.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkh.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjki.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkj.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkk.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkl.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjko.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjsy.pfb>
-Output written on main-4.pdf (4 pages, 257486 bytes).
+ </Users/jongpiljeong/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </Users/jongpiljeong/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjhira.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjka.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkata.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkb.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkc.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkd.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjke.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkf.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkg.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkh.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjki.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkj.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkk.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjkl.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjko.pfb></usr/local/texlive/2025basic/texmf-dist/fonts/type1/wadalab/dmj/dmjsy.pfb>
+Output written on main-4.pdf (4 pages, 257109 bytes).
 PDF statistics:
- 261 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
+ 266 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
  20 named destinations out of 1000 (max. 500000)
  165 words of extra memory for PDF output out of 10000 (max. 10000000)
 

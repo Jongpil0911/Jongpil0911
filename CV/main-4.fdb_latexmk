@@ -1,7 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1758786443.55709 "/Users/jongpiljeong/Documents/GitHub/Jongpil0911/CV/main-4.tex" "main-4.pdf" "main-4" 1758786444.11964 0
-  "/Users/jongpiljeong/Documents/GitHub/Jongpil0911/CV/main-4.tex" 1758786443.31739 25160 9ac514d15ee6eb8ef92c0b4d91ad9afc ""
+["pdflatex"] 1758788334.94836 "/Users/jongpiljeong/Documents/GitHub/Jongpil0911/CV/main-4.tex" "main-4.pdf" "main-4" 1758788335.31101 0
+  "/Users/jongpiljeong/Documents/GitHub/Jongpil0911/CV/main-4.tex" 1758788334.752 25312 6c5573419cda132a650094da5d194e64 ""
+  "/Users/jongpiljeong/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk" 1757506369.69362 10448 76e2c7fa96412e6f3094b7d071a95d76 ""
   "/Users/jongpiljeong/Library/texlive/2025basic/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1758780891.93794 11524 5e8d3d71de5a160e224229558352e31b ""
+  "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/jknappen/ec/tcrm0900.tfm" 1136768653 1536 c4f439db76ef96a9c53bc437f35ffe20 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1246382020 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -107,8 +109,8 @@
   "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1248133631 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1248133631 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
-  "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
-  "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
+  "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1248133631 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
+  "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb" 1248133631 36094 798f80770b3b148ceedd006d487db67c ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1248133631 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/local/texlive/2025basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb" 1248133631 33993 9b89b85fd2d9df0482bd47194d1d3bf3 ""
@@ -223,9 +225,9 @@
   "/usr/local/texlive/2025basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1757853570 114220 074139d848803ff7703c36ea87b9c272 ""
   "/usr/local/texlive/2025basic/texmf-var/web2c/pdftex/pdflatex.fmt" 1757853692 2937291 f0aa70269bd2eac2721e966fa6c9acd0 ""
   "/usr/local/texlive/2025basic/texmf.cnf" 1741448314 628 81d1ada0f601fb1ffa62f1323192d946 ""
-  "main-4.aux" 1758786443.99312 783 664bf51c932acaec7e16a087312c694b "pdflatex"
-  "main-4.out" 1758786443.89307 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main-4.tex" 1758786443.31739 25160 9ac514d15ee6eb8ef92c0b4d91ad9afc ""
+  "main-4.aux" 1758788335.22312 783 664bf51c932acaec7e16a087312c694b "pdflatex"
+  "main-4.out" 1758788335.15274 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main-4.tex" 1758788334.752 25312 6c5573419cda132a650094da5d194e64 ""
   (generated)
   "main-4.aux"
   "main-4.log"
