@@ -31,11 +31,11 @@ Here’s what I code with (a lot), and what I love exploring:
 | Title | Authors | Year | Publisher | Citations |
 |:---:|:---:|:---:|:---:|:---:|
 | <div align='left' style='white-space:normal;'>[**Scattering Medium Removal Using Adaptive Masks for Scatter in the Spatial Frequency Domain**](https://ieeexplore.ieee.org/abstract/document/10973090/)</div> | <span style='white-space:nowrap;'>Jongpil&nbsp;Jeong&nbsp;et&nbsp;al.</span> | 2025 | IEEE | 2 |
-| <div align='left' style='white-space:normal;'>[**雌雄判定システム及び雌雄判定方法**](https://scholar.google.com/scholar?q=雌雄判定システム及び雌雄判定方法)</div> | <span style='white-space:nowrap;'>Masaharu&nbsp;KAMIDE&nbsp;et&nbsp;al.</span> | 2025 | - | 0 |
-| <div align='left' style='white-space:normal;'>[**画像処理装置、画像処理方法および画像処理プログラム**](https://scholar.google.com/scholar?q=画像処理装置、画像処理方法および画像処理プログラム)</div> | <span style='white-space:nowrap;'>Min-Chul&nbsp;Lee&nbsp;et&nbsp;al.</span> | 2025 | - | 0 |
-| <div align='left' style='white-space:normal;'>[**Advanced double random phase encryption for simultaneous two primary data**](https://ieeexplore.ieee.org/abstract/document/11137702/)</div> | <span style='white-space:nowrap;'>Seongil&nbsp;Kim&nbsp;et&nbsp;al.</span> | 2025 | IEEE | 0 |
 | <div align='left' style='white-space:normal;'>[**A Research on Scattering Media Removal and Photon Estimation using COLaNoPS**](https://ieeexplore.ieee.org/abstract/document/11301366/)</div> | <span style='white-space:nowrap;'>Yuma&nbsp;Takahashi&nbsp;et&nbsp;al.</span> | 2025 | IEEE | 0 |
-| <div align='left' style='white-space:normal;'>[**Scattering media removal under the harsh conditions using adaptive removal via mask for scatter**](https://ieeexplore.ieee.org/abstract/document/11137793/)</div> | <span style='white-space:nowrap;'>Jongpil&nbsp;Jeong&nbsp;et&nbsp;al.</span> | 2025 | IEEE | 0 |
+| <div align='left' style='white-space:normal;'>[**雌雄判定システム及び雌雄判定方法**](https://scholar.google.com/scholar?q=雌雄判定システム及び雌雄判定方法)</div> | <span style='white-space:nowrap;'>Masaharu&nbsp;KAMIDE&nbsp;et&nbsp;al.</span> | 2025 | - | 0 |
+| <div align='left' style='white-space:normal;'>[**Advanced double random phase encryption for simultaneous two primary data**](https://ieeexplore.ieee.org/abstract/document/11137702/)</div> | <span style='white-space:nowrap;'>Seongil&nbsp;Kim&nbsp;et&nbsp;al.</span> | 2025 | IEEE | 0 |
+| <div align='left' style='white-space:normal;'>[**画像処理装置、画像処理方法および画像処理プログラム**](https://scholar.google.com/scholar?q=画像処理装置、画像処理方法および画像処理プログラム)</div> | <span style='white-space:nowrap;'>Min-Chul&nbsp;Lee&nbsp;et&nbsp;al.</span> | 2025 | - | 0 |
+| <div align='left' style='white-space:normal;'>[**Adaptive Optimization of Kalman Filtering in Digital Holographic Microscopy for improve Noise Reduction**](https://ieeexplore.ieee.org/abstract/document/11137616/)</div> | <span style='white-space:nowrap;'>Kosei&nbsp;Nakamura&nbsp;et&nbsp;al.</span> | 2025 | IEEE | 0 |
 <!-- SCHOLAR:END -->
 For more papers<br/>
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en)
