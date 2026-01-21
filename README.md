@@ -19,25 +19,6 @@ Here’s what I code with (a lot), and what I love exploring:
 
 <details>
 <summary>Image Signal Processing (ISP)</summary>
-  <!-- <details>
-  <summary>Biomedical Imaging Systems</summary>
-
-- Digital Holographic Microscopy (DHM)
-
-  </details>
-  <details>
-  <summary>Three-dimentional Imaging Systems</summary>
-
-- Digital Holographic Microscopy (DHM)
-
-  </details>
-  <details>
-  <summary>Image Enhancement</summary>
-
-- Digital Holographic Microscopy (DHM)
-
-  </details>
- -->
 
 - Biomedical Imaging Systems
   - Digital Holographic Microscopy (DHM)
