@@ -1,6 +1,7 @@
 ## Welcome to my Messive Brain 🧠
 
-Hi, I’m Jongpil — a research-driven programmer passionate about optics and imaging.  
+Hi, I’m Jongpil — a research-driven programmer passionate about optics and imaging.<br/>
+I am pursuing the Master course at Kyushu Institute of Technology.
 
 <!--Jongpil0911
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" 
@@ -14,6 +15,37 @@ I ususlly programming for research, and here is my lanaguges for it
 </div>
 
 Here’s what I code with (a lot), and what I love exploring:
+
+## 🏫 Education
+
+- M.E in Dept. Creative Informatics (Computer Science and Networs)<br/>
+Graduate of Computer Science and Systems Engineering at Kyushu Institute of Technology
+- B.E in Dept. Electronics Engineering<br/>
+Collage of Engineering at Dong-A University
+
+<details>
+<summary>Research Experiment</summary>
+
+- [Computational Holographic and Optical signal processing Lab](https://3cholab.wordpress.com). at Hankyung National University
+  - Advisor: Prof. [Myungjin Cho](https://orcid.org/0000-0003-2896-770X)
+  - Visiting Research Student
+  - Duration of Research
+    - Jan. 2024 - Feb. 2024  
+
+- [3D Optical Imagign Systems Lab](https://leelab.csn.kyutech.ac.jp/index.php/en/home-en/). at Kyushu Institute of Technology
+  - Advisor: Prof. [Min-Chul Lee](https://orcid.org/0000-0001-8469-0288)
+  - Short-term Visiting Program
+  - Duration of Research
+    - Jan. 2023 - Feb. 2023  
+    - Jul. 2023 - Aug. 2023  
+
+- [SoC Design Lab](https://soc.donga.ac.kr/soc/Main.do). at Dong-A University
+  - Advisor: Prof. [Bongsoon Kang](https://orcid.org/0000-0001-6716-5799)
+  - Undergraduate Research Student
+  - Duration of Research
+    - Sep. 2022 - Jul. 2023
+
+</details>
 
 ## 📖 Research Interests
 
@@ -83,7 +115,7 @@ For more papers [![Google Scholar](https://img.shields.io/badge/Google%20Scholar
 
 <!-- [![Blog](https://img.shields.io/badge/Blog-181717?style=flat-square&logo=github&logoColor=white)](https://jongpil0911.github.io) -->
 
----
+<!-- --- -->
 
 ## 💻 Languages
 
@@ -113,7 +145,7 @@ For more papers [![Google Scholar](https://img.shields.io/badge/Google%20Scholar
 - 🇺🇸 [English](https://github.com/user-attachments/files/21950163/9920056-certificate.pdf)
 - 🇯🇵 Japanese
 
----
+<!-- --- -->
 
 ## 🛠️ Tools & Version Control
 
