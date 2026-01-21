@@ -47,7 +47,7 @@ Collage of Engineering at Dong-A University
 
 </details>
 
-[![CV](https://img.shields.io/badge/CV-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](https://jongpil0911.github.io/cv/)
+[![Curriculum Vitae](https://img.shields.io/badge/CV-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](https://jongpil0911.github.io/cv/)
 
 ## 📖 Research Interests
 
@@ -84,7 +84,8 @@ Collage of Engineering at Dong-A University
   - Noise Reduction
 
 - Computer Vision (CV)
-- Deep Learning & Machine Learning -->
+- Deep Learning & Machine Learning 
+-->
 
 ## 📚 Recent Publications
 <!-- SCHOLAR:START -->
