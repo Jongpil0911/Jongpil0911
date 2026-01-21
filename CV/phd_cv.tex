@@ -10,6 +10,7 @@
 \usepackage{enumitem} % For itemized list formatting
 \usepackage{tabularx}
 \usepackage{fancyhdr}
+\usepackage{graphicx}
 \usepackage[hidelinks]{hyperref}
 \hypersetup{breaklinks=true}
 \hfuzz=20pt
@@ -28,13 +29,13 @@
 \pagestyle{fancy}
 \renewcommand{\headrulewidth}{0pt}
 \fancyhead{}
-\fancyhead[L]{\textit{Jongpil Jeong}}
-\fancyhead[R]{\textit{November 2025}}
+\fancyhead[L]{\textit{Jongpil JEONG}} 
+\fancyhead[R]{\textit{\today}}
 \thispagestyle{empty} % Remove header from the first page
 
 % Header
 \begin{flushleft}
-\href{https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en}{\textbf{\LARGE Jongpil JEONG}}\\[2pt] % Name
+\href{https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en}{\textbf{\LARGE Jongpil JEONG} \href{https://orcid.org/0009-0003-5434-1601}{\includegraphics[width=9pt]{./orcid.pdf}}}\\[2pt] % Name
 Master student \\ 
 % Master of Engineering Student \\ 
 Dept. of Creative Informatics at CSSE\\ 
@@ -95,9 +96,10 @@ Deep Learning for signal processing. \\
 
 \begin{tabularx}{\textwidth}{@{}lX@{}}
 \textbf{Languages}     & Korean (Native), English (\href{https://github.com/user-attachments/assets/f578b432-f7a8-410e-851c-852e9ae55378}{OPIc IH}), Japanese (Intermediate) \\ 
-\textbf{Programming}   & C/C++, Python, MATLAB \\
-\textbf{Libraries}     & PyTorch, TensorFlow, OpenCV, Qt, Pandas, NumPy, SciPy, Plotly \\
-\textbf{Tools / OS}    & \LaTeX, Digit Cam, Spinnaker SDK, Pylon SDK, Git, Blender \\ \\
+\textbf{Programming}   & C/C++, Python, MATLAB, CUDA \\
+% \textbf{Libraries}     & PyTorch, TensorFlow, OpenCV, Qt, Pandas, NumPy, SciPy, Plotly \\
+\textbf{Tools / OS}    & \LaTeX, DigitCam, Spinnaker SDK, Pylon SDK, Git, Blender, Arduino, Raspberry Pi  \\ \\
+% \textbf{Tools / OS}    & \LaTeX, DigitCam, Spinnaker SDK, Pylon SDK, Git, Blender, Arduino, Raspberry Pi, NVIDIA Jetson series, STM 32  \\ \\
 % \textbf{Affiliations}    & IEEE Student Member, SPIE Student Member \\ \\
 \end{tabularx}
 
@@ -166,13 +168,26 @@ Deep Learning for signal processing. \\
     \item \textit{Research Assistant} \hfill Apr. 2024 | Nov. 2024
     \begin{itemize}
         \item Developed the core algorithm for high accuracy and efficiency.
-        \item Led the end-to-end development of core algorithm, achieving improvement in accuracy from \textbf{56\%} to \textbf{87\%} over previous methods.
+        \item Led the end-to-end development of image preprocessing systems, achieving improvement in accuracy from \textbf{56\%} to \textbf{up to 97\%} compared to previous methods.
         \item Designed and implemented a Graphic User Interface (GUI) to streamline user interaction.
         \item Created and packaged the necessary installer for seamless program distribution and development.
-        \item Domestic patent pending (Japan) in collaboration with a private industry partner and \href{https://www.naro.go.jp/english/index.html}{National Agriculture and Food Research Organization (\textbf{NARO})}.
+        \item Domestic patent pending (Japan) in collaboration with \href{https://www.hitachi-solutions-create.co.jp}{Hitachi Solutions Create, Ltd. (HSC)} and \href{https://www.naro.go.jp/english/index.html}{National Agriculture and Food Research Organization (NARO)}.
     \end{itemize}
-\item Grant type: Joint Research with NARO and a private industry partner (Funded by a private industry partner under NDA, PI:Prof. M.-C. Lee) \\
+    \item Grant type: Joint Research with HSC and NARO (Funded by HSC, PI:Prof. M.-C. Lee) 
 % \hfill (Participation period) % Project link and duration
+% \item  Related Articles \href{https://www.kyutech.ac.jp/whats-new/press/entry-11919.html}{[1]}, \href{https://www.kyutech.ac.jp/archives/025/202601/press260122.pdf}{[2]} \\
+    \item  Related Article and Patent
+    \begin{itemize}
+        \item Articles
+        \begin{itemize}
+            \item Joint Development of Technology by HSC, NARO, and Kyushu Institute of Technology (Kyutech) for Non-destructive Pre-hatching Sex Determination for Eggs on the 3 Day of Incubation \href{https://www.nikkei.com/article/DGXZRSP702132_S6A120C2000000/}{[Link]} \href{https://www.kyutech.ac.jp/archives/025/202601/press260122.pdf}{[pdf]} 
+            \item AI Identifies Chicken Embryo Gender with 97\% Accuracy to Cut Costs: Hitachi Affiliate and Partners Developed New Technology \href{https://www.nikkei.com/article/DGXZQOSG2245J0S6A120C2000000/}{[Link]} 
+        \end{itemize}
+        \item Patent
+        \begin{itemize}
+            \item ``Sex identification service provision system and sex identification service provision method'' (Japanses Patent Application No.2025--154965)
+        \end{itemize}
+    \end{itemize}
 \end{itemize}
 
 % \newpage
@@ -436,6 +451,9 @@ Advisor: Prof. \href{https://orcid.org/0000-0001-6716-5799}{Bongsoon Kang}
 
 \section*{Leadership \& Volunteering}
 \noindent
+\large{\textbf{International Capstone Design Presentation with Partner Universities}} \hfill Fukuoka, Japan\\
+\textit{Participant (Student Delegate)}  \hfill Jan. 2026 \\
+
 \large{\textbf{\href{https://innovationjapan.jst.go.jp}{Innovation Japan 2025}}}  \hfill Tokyo, Japan\\ % Company name and location
 \textit{Student Staff}  \hfill Aug. 21 2025 | Aug. 22 2025  \\% Position and duration
 
