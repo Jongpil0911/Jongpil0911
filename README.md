@@ -18,8 +18,8 @@ Here’s what I code with (a lot), and what I love exploring:
 
 ## 🏫 Education
 
-- M.E in Dept. Creative Informatics (Computer Science and Networs)<br/>
-Graduate of Computer Science and Systems Engineering at Kyushu Institute of Technology
+- M.E in Dept. Creative Informatics<br/>
+Graduate School of CSSE at Kyushu Institute of Technology
 - B.E in Dept. Electronics Engineering<br/>
 Collage of Engineering at Dong-A University
 
@@ -46,6 +46,8 @@ Collage of Engineering at Dong-A University
     - Sep. 2022 - Jul. 2023
 
 </details>
+
+[![CV](https://img.shields.io/badge/CV-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](https://jongpil0911.github.io/cv/)
 
 ## 📖 Research Interests
 
@@ -109,8 +111,8 @@ For more papers [![Google Scholar](https://img.shields.io/badge/Google%20Scholar
 
 <!-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jongpil-jeong-215894281)  -->
 <!-- [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en)  <br/> -->
-
-[![CV](https://img.shields.io/badge/CV-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](./CV/phd_cv.pdf)
+<!-- 
+[![CV](https://img.shields.io/badge/CV-0A66C2?style=flat-square&logo=readthedocs&logoColor=white)](./CV/phd_cv.pdf) -->
 <!-- [![Résumé](https://img.shields.io/badge/Resume-ff69b4?style=flat-square&logo=googledocs&logoColor=white)](https://your-resume-link.com) <br/> -->
 
 <!-- [![Blog](https://img.shields.io/badge/Blog-181717?style=flat-square&logo=github&logoColor=white)](https://jongpil0911.github.io) -->
