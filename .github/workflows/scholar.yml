@@ -41,16 +41,11 @@
 #           git commit -m "chore: update publications from Google Scholar" || echo "no changes"
 #           git push
 
-
-
-
-
-
 name: Update Scholar Publications
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 매일 00:00 UTC
+    - cron: "0 0 * * *" # 매일 00:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -94,5 +89,3 @@ jobs:
           git add README.md
           git commit -m "chore: update publications from Google Scholar" || echo "no changes"
           git push
-
-

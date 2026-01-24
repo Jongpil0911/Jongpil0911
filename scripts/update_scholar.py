@@ -44,6 +44,8 @@ def format_authors(bib_author_field: str) -> str:
            
 def normalize_publisher(raw: str) -> str:
     """원문 venue/journal/publisher 문자열을 IEEE/SPIE/Optica 중 하나로 정규화."""
+    if not raw:
+        return "-"
     s = (raw or "").lower()
     print(raw)
 
