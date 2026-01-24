@@ -88,6 +88,7 @@ Collage of Engineering at Dong-A University
 -->
 
 ## 📚 Recent Publications
+
 <!-- SCHOLAR:START -->
 _No publications found_
 <!-- SCHOLAR:END -->
