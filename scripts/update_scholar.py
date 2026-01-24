@@ -6,7 +6,7 @@ SCHOLAR_URL  = os.getenv("SCHOLAR_PROFILE_URL", "https://scholar.google.com/cita
 SCHOLAR_USER = os.getenv("SCHOLAR_USER_ID", "O-3pYeQAAAAJ").strip()
 
 README_PATH  = os.getenv("README_PATH", "README.md")
-MAX_ITEMS    = int(os.getenv("SCHOLAR_MAX_ITEMS", "5"))
+MAX_ITEMS    = int(os.getenv("SCHOLAR_MAX_ITEMS", "6"))
 OUTPUT_STYLE = os.getenv("SCHOLAR_OUTPUT_STYLE", "table").lower()        # "table" or "list"
 ALLOW_SERPAPI_FALLBACK = os.getenv("ALLOW_SERPAPI_FALLBACK", "false").lower() == "true"
 

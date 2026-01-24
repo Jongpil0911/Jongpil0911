@@ -56,6 +56,11 @@ Collage of Engineering at Dong-A University
 
 - Biomedical Imaging Systems
   - Digital Holographic Microscopy (DHM)
+  - Pre-hatching sex determination technique for chicken
+    - [Link-1](https://news.yahoo.co.jp/articles/caeafdf0fb5a9c1d15480087badb6359a77ae154)
+    - [Link-2](https://www.nikkei.com/article/DGXZQOSG2245J0S6A120C2000000/)
+    - [pdf](https://www.kyutech.ac.jp/archives/025/202601/press260122.pdf)
+
 - Three-dimentional Imaging Systems
   - Integral Imaging (II)
 - Image Enhancement
