@@ -91,14 +91,7 @@ Collage of Engineering at Dong-A University
 ## 📚 Recent Publications
 
 <!-- SCHOLAR:START -->
-| Title | Authors | Year | Publisher | Citations |
-|:---:|:---:|:---:|:---:|:---:|
-| <div align='left' style='white-space:normal;'>[**Visibility Restoration under Harsh Conditions using Adaptive Removal via Mask for Scatter (ARMS)**](https://scholar.google.com/scholar?q=Visibility+Restoration+under+Harsh+Conditions+using+Adaptive+Removal+via+Mask+for+Scatter+(ARMS))</div> | <span style='white-space:nowrap;'>Jongpil&nbsp;Jeong</span> | 2026 | - | 0 |
-| <div align='left' style='white-space:normal;'>[**Visibility Enhancement in Fire and Rescue Operations: ARMS Extension with Gaussian Estimation**](https://www.mdpi.com/2079-9292/15/3/667)</div> | <span style='white-space:nowrap;'>Jongpil&nbsp;Jeong&nbsp;et&nbsp;al.</span> | 2026 | MDPI | 0 |
-| <div align='left' style='white-space:normal;'>[**Scattering Medium Removal Using Adaptive Masks for Scatter in the Spatial Frequency Domain**](https://ieeexplore.ieee.org/abstract/document/10973090/)</div> | <span style='white-space:nowrap;'>Jongpil&nbsp;Jeong&nbsp;et&nbsp;al.</span> | 2025 | IEEE | 3 |
-| <div align='left' style='white-space:normal;'>[**A Research on Scattering Media Removal and Photon Estimation using COLaNoPS**](https://ieeexplore.ieee.org/abstract/document/11301366/)</div> | <span style='white-space:nowrap;'>Yuma&nbsp;Takahashi&nbsp;et&nbsp;al.</span> | 2025 | IEEE | 0 |
-| <div align='left' style='white-space:normal;'>[**画像処理装置、画像処理方法および画像処理プログラム**](https://scholar.google.com/scholar?q=画像処理装置、画像処理方法および画像処理プログラム)</div> | <span style='white-space:nowrap;'>Min-Chul&nbsp;Lee&nbsp;et&nbsp;al.</span> | 2025 | - | 0 |
-| <div align='left' style='white-space:normal;'>[**雌雄判定システム及び雌雄判定方法**](https://scholar.google.com/scholar?q=雌雄判定システム及び雌雄判定方法)</div> | <span style='white-space:nowrap;'>Masaharu&nbsp;KAMIDE&nbsp;et&nbsp;al.</span> | 2025 | - | 0 |
+_No publications found_
 <!-- SCHOLAR:END -->
 For more papers [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en)
 
