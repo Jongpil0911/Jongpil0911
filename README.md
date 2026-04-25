@@ -77,8 +77,7 @@ Collage of Engineering at Dong-A University
     - [National Agriculture and Fodd Research Organization](https://www.naro.go.jp/english/index.html)
     - [Kyushu Institute of Technology](https://www.kyutech.ac.jp/english)
   - Related Article
-    - AI Identifies Chicken Embryo Gender with 97% Accuracy to Cut Costs: Hitachi Affiliate and Partners Devel-
-  oped New Technology [Link-1](https://news.yahoo.co.jp/articles/caeafdf0fb5a9c1d15480087badb6359a77ae154)
+    - AI determines gender before hatching [Link-1](https://www3.nhk.or.jp/nhkworld/en/news/special/04/4569/)
     - Joint Development of Technology by HSC, NARO, and Kyushu Institute of Technology (Kyutech) for Non-
   destructive Pre-hatching Sex Determination for Eggs on the 3 Day of Incubation [Link-2](https://www.nikkei.com/article/DGXZQOSG2245J0S6A120C2000000/)
     - [pdf](https://www.kyutech.ac.jp/archives/025/202601/press260122.pdf)
