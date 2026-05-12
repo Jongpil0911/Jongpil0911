@@ -1,19 +1,19 @@
 ## Welcome to my Messive Brain 🧠
 
 Hi, I’m Jongpil — a research-driven programmer passionate about optics and imaging.<br/>
-I am pursuing the Master course at Kyushu Institute of Technology.
+I am a researcher at Kyushu Institute of Technology.
 
 <!--Jongpil0911
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight" 
 I ususlly programming for research, and here is my lanaguges for it
 /> -->
-<div align="center">
+<!-- <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&langs_count=6&theme=github_dark&hide=html,ruby&v=2" height="240" />
   <img src="https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true&theme=github_dark" height="165" />
 </div>
 
 <div align="center">
-  </div>
+  </div> -->
 
 Here’s what I code with (a lot), and what I love exploring:
 
@@ -58,7 +58,7 @@ Collage of Engineering at Dong-A University
 - Biomedical Imaging Systems
   - Digital Holographic Microscopy (DHM)
 
-- Three-dimentional Imaging Systems
+- Three-dimensional Imaging Systems
   - Integral Imaging (II)
 
 - Image Enhancement
@@ -74,12 +74,12 @@ Collage of Engineering at Dong-A University
 - Pre-hatching sex determination technique for chicken
   - Related Organization
     - [Hitachi Solutions create, Ltd.](https://www.hitachi-solutions-create.co.jp)
-    - [National Agriculture and Fodd Research Organization](https://www.naro.go.jp/english/index.html)
+    - [National Agriculture and Food Research Organization](https://www.naro.go.jp/english/index.html)
     - [Kyushu Institute of Technology](https://www.kyutech.ac.jp/english)
   - Related Article
     - AI determines gender before hatching [Link-1](https://www3.nhk.or.jp/nhkworld/en/news/special/04/4569/)
     - Joint Development of Technology by HSC, NARO, and Kyushu Institute of Technology (Kyutech) for Non-
-  destructive Pre-hatching Sex Determination for Eggs on the 3 Day of Incubation [Link-2](https://www.nikkei.com/article/DGXZQOSG2245J0S6A120C2000000/)
+  destructive Pre-hatching Sex Determination for Eggs on the 3rd Day of Incubation [Link-2](https://www.nikkei.com/article/DGXZQOSG2245J0S6A120C2000000/)
     - [pdf](https://www.kyutech.ac.jp/archives/025/202601/press260122.pdf)
 
 </details>
