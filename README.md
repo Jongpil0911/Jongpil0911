@@ -139,6 +139,7 @@ Dong-A University
 
 I am always happy to talk about imaging systems, research software, optical sensing, and collaboration ideas.
 
-- Kyutech: [jeong.jongpil383@mail.kyutech.jp](mailto:jeong.jongpil383@mail.kyutech.jp)
-- Personal: [jeongpil0911@gmail.com](mailto:jeongpil0911@gmail.com)
-- LinkedIn: [jongpil-jeong-215894281](https://www.linkedin.com/in/jongpil-jeong-215894281)
+<!-- - Kyutech: [jeong.jongpil383@mail.kyutech.jp](mailto:jeong.jongpil383@mail.kyutech.jp) -->
+- Official: [jonpgil.jeong@ieee.org](mailto:jongpil.jeong@ieee.org)
+- Personal: [jeongjongpil0911@gmail.com](mailto:jeongjongpil0911@gmail.com)
+<!-- - LinkedIn: [jongpil-jeong-215894281](https://www.linkedin.com/in/jongpil-jeong-215894281) -->

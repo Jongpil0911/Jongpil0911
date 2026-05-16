@@ -1,5 +1,5 @@
 # scripts/update_scholar.py
-import os, re, sys, html, time, concurrent.futures as cf
+import os, re, sys, html, concurrent.futures as cf
 
 # ---- 기본 설정 (로컬 테스트용 기본값 포함) ----
 SCHOLAR_URL  = os.getenv("SCHOLAR_PROFILE_URL", "https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en").strip()
@@ -47,7 +47,6 @@ def normalize_publisher(raw: str) -> str:
     if not raw:
         return "-"
     s = (raw or "").lower()
-    print(raw)
 
     # IEEE 계열 키워드
     ieee_keys = [
@@ -135,7 +134,7 @@ def try_scholarly(user_id: str, max_items: int):
         try:
             author = fut.result(timeout=AUTHOR_TIMEOUT)
         except Exception as e:
-            print(f"[warn] scholarly author timeout/fail: {e}")
+            print(f"[warn] scholarly author timeout/fail: {type(e).__name__}: {e!s}")
             return None
 
     pubs = author.get("publications", [])
@@ -154,33 +153,35 @@ def try_scholarly(user_id: str, max_items: int):
         except Exception:
             return None
 
-    with cf.ThreadPoolExecutor(max_workers=6) as ex:
-        futures = [ex.submit(_fill_one, p) for p in pubs]
-        for fut in cf.as_completed(futures, timeout=max(10, PUB_TIMEOUT * slice_cnt)):
-            try:
-                p2 = fut.result(timeout=0)
-            except Exception:
-                p2 = None
-            if not p2:
-                continue
-            bib = p2.get("bib", {})
-            title = html.escape(bib.get("title", "Untitled"))
-            year  = bib.get("pub_year") or bib.get("year") or "n.d."
-            authors = format_authors(bib.get("author", ""))
-            cites = p2.get("num_citations", 0) or 0
-            url = p2.get("pub_url") or coalesce_pub_url_by_title(bib.get("title", ""))
+    try:
+        with cf.ThreadPoolExecutor(max_workers=6) as ex:
+            futures = [ex.submit(_fill_one, p) for p in pubs]
+            for fut in cf.as_completed(futures, timeout=max(10, PUB_TIMEOUT * slice_cnt)):
+                try:
+                    p2 = fut.result(timeout=0)
+                except Exception:
+                    p2 = None
+                if not p2:
+                    continue
+                bib = p2.get("bib", {})
+                title = html.escape(bib.get("title", "Untitled"))
+                year  = bib.get("pub_year") or bib.get("year") or "n.d."
+                authors = format_authors(bib.get("author", ""))
+                cites = p2.get("num_citations", 0) or 0
+                url = p2.get("pub_url") or coalesce_pub_url_by_title(bib.get("title", ""))
 
-            # 🔸 publisher/venue 추출 (가능한 필드 우선순위)
-            # publisher = bib.get("venue") or bib.get("journal") or bib.get("publisher") or ""
-            raw_pub   = " ".join(filter(None, [bib.get("venue",""), bib.get("journal",""), bib.get("publisher","")])).strip()
-            publisher = normalize_publisher(raw_pub)
+                raw_pub = " ".join(filter(None, [bib.get("venue",""), bib.get("journal",""), bib.get("publisher","")])).strip()
+                publisher = normalize_publisher(raw_pub)
 
-            items.append({
-                "title": title, "url": url, "authors": authors,
-                "year": year, "cites": cites, "publisher": publisher
-            })
-            if len(items) >= max_items * 2:
-                break
+                items.append({
+                    "title": title, "url": url, "authors": authors,
+                    "year": year, "cites": cites, "publisher": publisher
+                })
+                if len(items) >= max_items * 2:
+                    break
+    except Exception as e:
+        print(f"[warn] scholarly publication fill timeout/fail: {type(e).__name__}: {e!s}")
+        return None
 
     if not items:
         return None
@@ -196,7 +197,7 @@ def try_serpapi(user_id: str, max_items: int):
 
     key = os.getenv("SERPAPI_KEY", "").strip()
     if not key:
-        print("[info] SERPAPI_KEY not set; skipping SerpAPI fallback.")
+        print("[warn] SERPAPI_KEY not set; skipping SerpAPI fallback.")
         return None
 
     try:
@@ -256,7 +257,7 @@ def build_block(user_id: str):
         print("[info] Falling back to SerpAPI…")
         items = try_serpapi(user_id, MAX_ITEMS)
     if not items:
-        return "_No publications found_"
+        return None
     return render_items(items, OUTPUT_STYLE)
 
 def main():
@@ -271,6 +272,11 @@ def main():
         md = f.read()
     if START not in md or END not in md:
         print(f"❌ Place {START} ... {END} markers in README.md")
+        sys.exit(1)
+
+    if block_md is None:
+        print("❌ Publication fetch failed. Keeping the existing README block unchanged.")
+        print("   If this runs on GitHub Actions, set SERPAPI_KEY or use a more reliable data source than direct Google Scholar scraping.")
         sys.exit(1)
 
     new = re.sub(

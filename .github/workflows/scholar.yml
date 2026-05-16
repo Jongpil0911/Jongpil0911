@@ -55,12 +55,13 @@ jobs:
   update:
     runs-on: ubuntu-latest
     env:
-      SCHOLAR_USER_ID: ${{ secrets.SCHOLAR_USER_ID }}
+      SCHOLAR_USER_ID: "O-3pYeQAAAAJ"
       SCHOLAR_MAX_ITEMS: "6"
       README_PATH: "README.md"
       SCHOLAR_OUTPUT_STYLE: "table"
 
-      # 추가된 옵션
+      # Direct Google Scholar scraping is fragile on GitHub-hosted runners.
+      # Add SERPAPI_KEY in repository secrets to make the fallback reliable.
       SCHOLAR_AUTHOR_TIMEOUT: "12"
       SCHOLAR_PUB_TIMEOUT: "4"
       ALLOW_SERPAPI_FALLBACK: "true"
