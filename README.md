@@ -5,8 +5,9 @@
 </p>
 
 <p align="center">
-  <a href="mailto:jeong.jongpil383@mail.kyutech.jp"><img src="https://img.shields.io/badge/Kyutech-Mail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Kyutech email"></a>
-  <a href="mailto:jeongpil0911@gmail.com"><img src="https://img.shields.io/badge/Personal-Mail-4285F4?style=flat-square&logo=gmail&logoColor=white" alt="Personal email"></a>
+  <!-- <a href="mailto:jeong.jongpil383@mail.kyutech.jp"><img src="https://img.shields.io/badge/Kyutech-Mail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Kyutech email"></a> -->
+  <a href="mailto:jongpil.jeong@ieee.org"><img src="https://img.shields.io/badge/Official-Mail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Kyutech email"></a>
+  <a href="mailto:jeongjongpil0911@gmail.com"><img src="https://img.shields.io/badge/Personal-Mail-4285F4?style=flat-square&logo=gmail&logoColor=white" alt="Personal email"></a>
   <a href="https://www.linkedin.com/in/jongpil-jeong-215894281"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://scholar.google.com/citations?user=O-3pYeQAAAAJ&hl=en"><img src="https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar"></a>
   <a href="https://jongpil0911.github.io/cv/"><img src="https://img.shields.io/badge/CV-Read-0A66C2?style=flat-square&logo=readthedocs&logoColor=white" alt="CV"></a>
