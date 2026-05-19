@@ -275,9 +275,9 @@ def main():
         sys.exit(1)
 
     if block_md is None:
-        print("❌ Publication fetch failed. Keeping the existing README block unchanged.")
-        print("   If this runs on GitHub Actions, set SERPAPI_KEY or use a more reliable data source than direct Google Scholar scraping.")
-        sys.exit(1)
+        print("⚠️ Publication fetch failed. Keeping the existing README block unchanged.")
+        print("   Exiting successfully to avoid noisy scheduled GitHub Actions failure emails.")
+        return
 
     new = re.sub(
         rf"{re.escape(START)}[\s\S]*?{re.escape(END)}",

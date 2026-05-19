@@ -107,9 +107,9 @@ More papers are available on [Google Scholar](https://scholar.google.com/citatio
 
 ## Education
 
-- **M.E., Creative Informatics**<br>
+- **M.Eng., Creative Informatics**<br>
   Graduate School of Computer Science and Systems Engineering, Kyushu Institute of Technology
-- **B.E., Electronics Engineering**<br>
+- **B.Eng., Electronics Engineering**<br>
   College of Engineering, Dong-A University
 
 ## Research Experience

@@ -45,7 +45,7 @@ name: Update Scholar Publications
 
 on:
   schedule:
-    - cron: "0 0 * * *" # 매일 00:00 UTC
+    - cron: "0 0 1 * *" # Monthly: 1st day, 00:00 UTC / 09:00 KST
   workflow_dispatch:
 
 permissions:
