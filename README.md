@@ -14,6 +14,8 @@
 </p>
 
 ---
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=자신의_깃허브_ID&layout=compact)
+---
 
 ## About
 
