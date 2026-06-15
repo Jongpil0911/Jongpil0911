@@ -14,11 +14,14 @@
 </p>
 
 ---
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img id="gh-dark-mode-only" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&theme=dark" alt="Most Used Languages" />
+</a>
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true&theme=radial)
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img id="gh-light-mode-only" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&theme=default" alt="Most Used Languages" />
+</a>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Jongpil0911)](https://git.io/streak-stats)
 ---
 
 ## About
