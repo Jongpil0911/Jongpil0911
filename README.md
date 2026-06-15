@@ -14,13 +14,15 @@
 </p>
 
 ---
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img id="gh-dark-mode-only" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&theme=dark" alt="Most Used Languages" />
-</a>
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img id="gh-light-mode-only" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&theme=default" alt="Most Used Languages" />
-</a>
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img id="gh-dark-mode-only" src="https://github-readme-stats.vercel.app/api?username=Jongpil0911&show_icons=true&theme=dark&card_width=450" alt="Jongpil's GitHub Stats" height="165" />
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img id="gh-dark-mode-only" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jongpil0911&layout=compact&theme=dark&hide=html,javascript,liquid,ruby" alt="Most Used Languages" height="165" />
+  </a>
+</p>
 
 ---
 
