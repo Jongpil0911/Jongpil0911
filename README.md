@@ -40,7 +40,7 @@ I am a researcher at Kyushu Institute of Technology, building software for imagi
 | Area | What I work on |
 |:---|:---|
 | Optical imaging | Digital holographic microscopy, integral imaging, biomedical imaging systems |
-| Image signal processing | Enhancement, denoising, scattering media removal, night vision |
+| Image signal processing | Enhancement, denoising, [scattering media removal](https://youtu.be/2HTHw10AvWs?si=lJe2qxS36SOcxuIk), night vision |
 | Computer vision | Applied vision pipelines for sensing and pre-hatching sex determination |
 | Research tooling | Python/MATLAB/C++ scripts, camera SDKs, LaTeX, reproducible analysis |
 
